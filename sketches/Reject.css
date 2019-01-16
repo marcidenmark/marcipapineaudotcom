@@ -1,0 +1,57 @@
+.welcome-banner-container {
+	display:flex;
+	background: linear-gradient(to right, #eef2f3, #8e9eab);
+  text-align: right;
+  height: 80vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stine{
+	display:flex;
+	width: 100px;
+}
+.welcome-banner-item-1 {
+	display:flex;
+
+}
+
+.card-x {
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 1px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+
+.clients-banner {
+	padding: 7% 0;
+	background-size:cover;
+	height: 420px;
+}
+
+.clients-logo{
+	min-width: 30px;
+	height:150px;
+	background-color: beige;
+	text-align: center;
+	padding:20px 0;
+}

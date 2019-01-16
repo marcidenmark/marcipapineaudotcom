@@ -1,0 +1,83 @@
+.welcome-banner {
+/*	text-align: right;
+*/  height: 90vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
+}
+
+.image-banner {
+/*	text-align: right;
+*/  height: 75vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
+}
+
+.banner-content {
+	text-align: right;
+
+}
+
+.quote-banner {
+	color:#C70039;
+	background-size: cover;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.quote-banner-no-shadow {
+	color:#C70039;
+	background-size: cover;
+	box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,.1), 0 0.9375rem 1.40625rem rgba(90,97,105,.1), 0 0.25rem 0.53125rem rgba(90,97,105,.12), 0 0.125rem 0.1875rem rgba(90,97,105,.1);
+}
+
+.quote-banner-beige {
+	color:#C70039;
+	background-size: cover;
+	background-color: #E6E4E4;
+}
+
+.quote-banner-type {
+	padding: 100px 100px !important;
+	font-style: italic;
+	margin-bottom:50px;
+}
+
+.quote-banner-type-white {
+	color:white;
+	padding: 70px 100px !important;
+	font-style: italic;
+}
+
+.beige-banner {
+	padding: 60px 30px;
+	background-color: #E6E4E4;
+	margin-bottom: -22px;
+}
+
+.tv-banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+
+.background-image-style {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row-container {
+	margin: 30px 0px;
+}
+
+
+
+
+
