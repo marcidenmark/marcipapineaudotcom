@@ -7,9 +7,32 @@
  	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
 }
 
-.image-banner {
-	height: 75vh;
+.tv-pic{
+	display: flex;
+	height: 82vh;
   background-size: cover !important;
+  align-items: center;
+  justify-content: center;
+ 	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
+}
+
+
+@media only screen and (max-width: 600px) {
+	.tv-pic {
+		height: 30vh;
+  }
+}
+
+/*
+.tv-banner {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+}*/
+
+.image-banner {
+/*	height: 75vh;
+*/  background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,36 +84,24 @@
 .beige-banner {
 	padding: 60px 30px;
 	background-color: #E6E4E4;
-	margin-bottom: -22px;
+/*	margin-bottom: -22px;*/
 }
 
-.tv-banner {
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 80vh;
-}
 
-.background-image-style {
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-}
 
 .background-image-style-2 {
-/*  min-height: 500px;
-*/  background-attachment: fixed;
+  min-height: 500px;
+	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.sample-logo-space{
+	background-color: rgba(250, 250, 250, 0.5);
+	height: 400px;
+	margin-top: 30px;
 }
 
 .row-container {
@@ -112,5 +123,17 @@
 
 
 
+/*.background-image-style {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
 
 
