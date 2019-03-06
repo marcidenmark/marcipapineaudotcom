@@ -1,16 +1,14 @@
 .welcome-banner {
-/*	text-align: right;
-*/  height: 90vh;
+	display: flex;
+	height: 90vh;
   background-size: cover !important;
-  display: flex;
   align-items: center;
   justify-content: center;
  	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
 }
 
 .image-banner {
-/*	text-align: right;
-*/  height: 75vh;
+	height: 75vh;
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -19,9 +17,16 @@
 }
 
 .banner-content {
-	text-align: right;
-
+	display: flex;
+	justify-content: flex-end;
+	/*max-width: 338px;*/
 }
+
+
+.flex-item{
+	justify-content: flex-end;
+}
+
 
 .quote-banner {
 	color:#C70039;
@@ -42,9 +47,9 @@
 }
 
 .quote-banner-type {
-	padding: 100px 100px !important;
+	padding: 100px 32px !important;
 	font-style: italic;
-	margin-bottom:50px;
+	margin:50px 0px;
 }
 
 .quote-banner-type-white {
@@ -71,10 +76,38 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
+
+.background-image-style-2 {
+/*  min-height: 500px;
+*/  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .row-container {
 	margin: 30px 0px;
+}
+
+.testimonial-container	{
+	margin:20px 100px;
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 

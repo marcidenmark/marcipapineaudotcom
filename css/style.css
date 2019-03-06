@@ -8,8 +8,16 @@
 @import url("Components/colors.css");
 
 
+html, body {
+    overflow-x:hidden;
+}
 
-
+/*@media only screen and (max-width: 800px) {
+  body {
+     background-color: none;
+     min-width: 300px;
+  }
+}*/
 
 /*.border-box {
 	box-sizing: padding-box;
@@ -29,6 +37,7 @@ html {
   box-sizing: inherit;
 }
 */
-html {
+/*html {
 	overflow-x: hidden;
-}
+	width: 100%;
+}*/
