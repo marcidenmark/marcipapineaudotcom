@@ -9,26 +9,26 @@
 
 .tv-pic{
 	display: flex;
-	height: 82vh;
-  background-size: cover !important;
-  align-items: center;
-  justify-content: center;
- 	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
+	width: 100%;
+	height: auto;
+	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
+	min-width:265px ;
 }
 
-
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 	.tv-pic {
 		height: 30vh;
   }
+}*/
+
+.kontakt-foto {
+	/*height: 60vh;*/
+	width: 100%;
+  background-size: cover !important;
+	box-shadow: 2px 8px 50px -13px rgba(145,145,145,1);
 }
 
-/*
-.tv-banner {
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 80vh;
-}*/
+
 
 .image-banner {
 /*	height: 75vh;
@@ -82,27 +82,37 @@
 }
 
 .beige-banner {
-	padding: 60px 30px;
-	background-color: #E6E4E4;
+	padding: 60px ;
+	background-color: #F5EFEF;
 /*	margin-bottom: -22px;*/
 }
 
-
-
 .background-image-style-2 {
-  min-height: 500px;
+  min-height: 512px;
 	background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+@media only screen and (max-width: 600px) {
+	.background-image-style-2 {
+		min-height: 347px;
+  }
+}
+/*tktk media querry*/
 
 .sample-logo-space{
 	background-color: rgba(250, 250, 250, 0.5);
-	height: 400px;
-	margin-top: 30px;
 }
+
+.logos{
+	height: auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	/*	margin:0 auto;*/
+}
+
 
 .row-container {
 	margin: 30px 0px;
@@ -120,20 +130,4 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
-
-
-/*.background-image-style {
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
-
 
