@@ -9,7 +9,7 @@
 
 .tv-banner {
 	display: flex;
-	height: 50vh;
+	height: 70vh;
   background-size: cover !important;
   align-items: center;
   justify-content: center;
@@ -91,9 +91,14 @@
 }
 
 .beige-banner {
-	padding: 60px ;
+	padding: 23px 0 ;
 	background-color: #F5EFEF;
 /*	margin-bottom: -22px;*/
+}
+
+.white-banner {
+	padding: 60px 0;
+	border-bottom: 4px solid #9A0932;
 }
 
 .background-image-style-2 {
