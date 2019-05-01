@@ -2,7 +2,17 @@
 	color:#6F8694;
 }
 
-.blue-2{
-/*color:rgb(70,130,180);
+.white {
+	color:white;
 }
-*/
+
+.black {
+	color:black;
+}
+
+.pale-yellow{
+  background-color:#FFF0E1;
+}
+/* .pale-yellow{
+  background-color:rgba(255, 240, 225, .3);
+} */
