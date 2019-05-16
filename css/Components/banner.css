@@ -21,3 +21,30 @@
   /* display: flex; */
   align-items: center;
 }
+
+.hero-subhead {
+  font-size: 150%;
+}
+
+.hero-4-wrapper {
+  background-color: aquamarine;
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  /* margin: 0px 20px 30px 20px; */
+  /* max-width: 1140px; */
+  /* width: 100%; */
+  left: 50%;
+  /* transform: translateX(-50%); */
+  /* z-index: 2; */
+}
+
+.hero-4-container {
+  display: flex;
+  width: 50%;
+  margin-left: 20px;
+}
+/* .flex-container {
+  display: flex;
+} */

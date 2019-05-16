@@ -3,6 +3,52 @@
   height: 30px;
   /* display: inline; */
 }
+
+.navbar-4-wrapper {
+  background-color: aquamarine;
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  /* margin: 0px 20px 30px 20px; */
+  /* max-width: 1140px; */
+  /* width: 100%; */
+  left: 50%;
+  /* transform: translateX(-50%); */
+  /* z-index: 2; */
+}
+
+/*.navbar-logo-container {
+  display: flex;
+  width: 50%;
+  margin-left: 20px;
+}*/
+
+.navbar-4-container {
+  display: flex;
+  width: 50%;
+  margin-left: 20px;
+}
+/* ul {
+  margin: 0;
+  padding: 0;
+} */
+li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+
+.menu-marci li {
+  display:inline;
+  list-style-type: none;
+  margin:20px;
+}
+
+
+
+
 .navbar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -39,7 +85,7 @@
   margin:20px;
 }
 
-.navbar-3 {
+/* .navbar-3 {
   display: flex;
   justify-content: flex-end;
   height: 50px;;
@@ -49,7 +95,7 @@
 	.navbar {
   	visibility: hidden;
   }
-}
+} */
 
 .navbar-text{
   font-family: 'Poppins', sans-serif;
@@ -74,7 +120,6 @@ a {
   -webkit-transition: background-color .25s ease-in-out;
   transition: background-color .25s ease-in-out;
 }
-
 
 a {
   text-decoration: none;
@@ -128,7 +173,9 @@ a:hover {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  /* background: #232323; */
+  background:pink;
+
 }
 /** But let's hide the middle one. */
 #menuToggle input:checked ~ span:nth-last-child(3) {

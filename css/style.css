@@ -6,13 +6,17 @@
 @import url("Components/footer.css");
 @import url("Components/spacing.css");
 @import url("Components/colors.css");
+@import url("Components/flex.css");
 
 
 html, body {
   margin:0px;
-    overflow-x:hidden;
+  overflow-x:hidden;
 }
 
+/* .flex-end {
+  justify-content: flex-end;
+} */
 /*@media only screen and (max-width: 800px) {
   body {
      background-color: none;
