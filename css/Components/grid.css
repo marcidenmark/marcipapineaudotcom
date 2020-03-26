@@ -1,0 +1,34 @@
+.two-col-grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+@media (max-width: 768px) {
+	.two-col-grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
+
+.three-col-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width: 768px) {
+	.three-col-grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
+
+.sample-box-pink {
+	margin: 40px;
+	/* background: pink; */
+	/* height: 500px; */
+}
+/* spacing */
+.spacing-box {
+	height: 100px;
+}
+.twitter-holder {
+	padding: 4rem 4rem;
+}

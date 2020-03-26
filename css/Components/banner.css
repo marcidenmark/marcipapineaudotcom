@@ -1,56 +1,32 @@
-/* .welcome-banner {
-  height: 90vh;
-  padding: 20px 40px;
-} */
-.hero {
-  height: 60vh;
-  background-size: cover;
-  padding: 4rem 2rem;
-  /* grid styles */
-  /* display: grid; */
-  align-items: center;
-  /* grid-template-columns: auto auto; */
-  /* grid-template-columns: repeat(auto-fit, minmax(240px, 1fr) ) */
+/* opening banner */
+.banner {
+	height: 60vh;
+	background-size: cover;
+	padding: 4rem 4rem;
+	align-items: center;
 }
 
-.hero-2 {
-  display: flex;
-  flex-wrap: wrap;
-  height: 60vh;
-  background-size: cover;
-  padding: 4rem 2rem;
-  /* grid styles */
-  /* display: flex; */
-  align-items: center;
+.banner-flex {
+	display: flex;
+	flex-wrap: wrap;
+	height: 55vh;
+	background-size: cover;
+	padding: 4rem 6rem;
+	align-items: center;
+	/* background-color: #fff0e1; */
 }
-
-
-
-
-
-.hero-subhead {
-  font-size: 150%;
+.portfolio-banner {
+	background: ;
+	padding: 80px;
 }
-
-.hero-4-wrapper {
-  background-color: aquamarine;
-  /* position: absolute; */
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
-  /* margin: 0px 20px 30px 20px; */
-  /* max-width: 1140px; */
-  /* width: 100%; */
-  left: 50%;
-  /* transform: translateX(-50%); */
-  /* z-index: 2; */
+.twitter-wrapper {
+	margin: 0 auto;
+	padding: 0rem 6rem;
 }
-
-.hero-4-container {
-  display: flex;
-  width: 50%;
-  margin-left: 20px;
+.flex {
+	display: flex;
 }
-/* .flex-container {
-  display: flex;
-} */
+.portfolio-piece {
+	height: 60vh;
+	background-size: cover;
+}

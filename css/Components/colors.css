@@ -1,21 +1,24 @@
 .blue {
-	color:#6F8694;
+	color: #6f8694;
 }
 
 .white {
-	color:white;
+	color: white;
 }
 
 .black {
-	color:black;
+	color: black;
 }
-
-.pale-yellow{
-  background-color:#FFF0E1;
+.peach-background {
+	background-color: #fff0e1;
 }
+/* .pale-yellow {
+  background-color: #fff0e1;
+} */
 /* .pale-yellow{
   background-color:rgba(255, 240, 225, .3);
 } */
- .text-background {
-   background:rgba(0, 00, 0, .9);
-}
+
+/* color:rgb(176, 185, 192); */
+/* color: hsl(184, 80%, 74%);
+  color: hsla(227, 109%, 51%, 1); */

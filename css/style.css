@@ -1,48 +1,12 @@
 @import url("Components/navbar.css");
 @import url("Components/banner.css");
 @import url("Components/typography.css");
-@import url("Components/buttons.css");
-@import url("Components/cards.css");
-@import url("Components/footer.css");
-@import url("Components/spacing.css");
 @import url("Components/colors.css");
-@import url("Components/flex.css");
+@import url("Components/grid.css");
+@import url("Components/footer.css");
+/* @import url("Components/flex.css"); */
 
-
-html, body {
-  margin:0px;
-  overflow-x:hidden;
+body {
+	font-family: "Poppins", sans-serif;
+	margin: 0px;
 }
-
-/* .flex-end {
-  justify-content: flex-end;
-} */
-/*@media only screen and (max-width: 800px) {
-  body {
-     background-color: none;
-     min-width: 300px;
-  }
-}*/
-
-/*.border-box {
-	box-sizing: padding-box;
-	width:100%;
-}
-.padding-box{
-	box-sizing: padding-box
-}
-
-*/
-/*
-html {
-  box-sizing: border-box !important;
-  width: 100%;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-*/
-/*html {
-	overflow-x: hidden;
-	width: 100%;
-}*/
