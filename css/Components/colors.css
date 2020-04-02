@@ -9,9 +9,35 @@
 .black {
 	color: black;
 }
+
+.grey-brown {
+	color: #c1bcb4;
+}
+.grey-2 {
+	color: #9cb3b1;
+}
+
 .peach-background {
 	background-color: #fff0e1;
 }
+.peach-light {
+	color: #fff0e1;
+}
+
+.red {
+	color: #fc4827;
+}
+
+.blue-bright-background {
+	background: #7fffd4;
+}
+.blue-bright {
+	color: #7fffd4;
+}
+/* #9cb3b1 #61D3C9 #899392 */
+
+/* possible colors: */
+
 /* .pale-yellow {
   background-color: #fff0e1;
 } */

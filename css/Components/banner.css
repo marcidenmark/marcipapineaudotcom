@@ -17,16 +17,61 @@
 }
 .portfolio-banner {
 	background: ;
-	padding: 80px;
+	padding: 1rem 6rem 1.8rem 6rem;
 }
+.portfolio-banner:first-child {
+	padding: 0rem 6rem 0rem 6rem;
+}
+.twitter-holder {
+	padding: 2rem 6rem 4rem 10rem;
+	background: #fff0e1;
+}
+.banner-wrapper {
+	padding: 3rem 6rem 3rem 6rem;
+}
+
 .twitter-wrapper {
 	margin: 0 auto;
-	padding: 0rem 6rem;
+	/* padding: 0rem 6rem; */
 }
-.flex {
+/* .flex {
 	display: flex;
-}
+} */
 .portfolio-piece {
-	height: 60vh;
+	height: 35vh;
 	background-size: cover;
+}
+
+.company-logos {
+	margin-top: 15px;
+	height: 45px;
+}
+.testimonial-box {
+	margin: 30px 50px 0px 0px;
+}
+
+.portfolio-box {
+	padding: 30px;
+	margin: 0px 40px 4px 0px;
+	background: #fcfcfc;
+	border: 0.5px solid #fc4827;
+	border-radius: 1px;
+}
+.portfolio-box:last-child {
+	margin: 0px 0px 4px 0px;
+}
+
+.portfolio-text-only-box {
+	padding: 40px;
+	margin: 0px 40px;
+	background: #fcfcfc;
+	border: 0.5px solid #fc4827;
+	border-radius: 1px;
+}
+
+.text-only-box {
+	padding: 40px;
+	background: #fcfcfc;
+	border: 0.5px solid #fc4827;
+	border-radius: 1px;
 }

@@ -8,7 +8,6 @@
 		grid-template-columns: 100%;
 	}
 }
-
 .three-col-grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -20,15 +19,31 @@
 	}
 }
 
-.sample-box-pink {
-	margin: 40px;
-	/* background: pink; */
-	/* height: 500px; */
+.four-col-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-/* spacing */
-.spacing-box {
-	height: 100px;
+@media (max-width: 768px) {
+	.four-col-grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+	}
 }
-.twitter-holder {
-	padding: 4rem 4rem;
+
+.four-col-grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media (max-width: 768px) {
+	.four-col-grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+	}
+}
+
+.logo-grid-container {
+	display: grid;
+	align-items: center;
+	padding: 0px 70px;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
 }

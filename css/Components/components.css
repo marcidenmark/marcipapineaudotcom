@@ -1,0 +1,34 @@
+.circle {
+	margin: 0 25%;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.circle-wrap {
+	float: left;
+	shape-outside: circle(50%);
+	margin: 16px 15px 0px 0px;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+/* spacing */
+.spacing-25px {
+	height: 25px;
+}
+.spacing-50px {
+	height: 50px;
+}
+.sample-box {
+	padding: 0px 40px;
+	background: #7fffd4;
+	height: 800;
+}
+.sample-box-b {
+	padding: 0px 40px;
+	color: #fd4927;
+	background: #ffeeeb;
+	height: 600px;
+}
