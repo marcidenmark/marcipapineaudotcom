@@ -9,6 +9,12 @@ h1 {
 	letter-spacing: -1px;
 	/*font-size: 400%;*/
 }
+@media (max-width: 768px) {
+	h1 {
+		font-size: 50px;
+		line-height: 66px;
+	}
+}
 
 h2 {
 	font-size: 45px;
@@ -19,6 +25,11 @@ h2 {
 h3 {
 	font-size: 30px;
 	margin-bottom: 0px;
+}
+@media (max-width: 768px) {
+	h3 {
+		font-size: 25px;
+	}
 }
 
 h4 {
