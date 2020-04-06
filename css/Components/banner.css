@@ -19,6 +19,18 @@
 	background: ;
 	padding: 1rem 6rem 1.8rem 6rem;
 }
+@media (max-width: 992px) {
+	.portfolio-banner {
+		padding: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.portfolio-banner {
+		padding: 30px;
+	}
+}
+
 .portfolio-banner:first-child {
 	padding: 0rem 6rem 0rem 6rem;
 }
