@@ -4,6 +4,17 @@
 	height: 100px;
 	width: 100px;
 }
+@media (max-width: 992px) {
+	.circle {
+		margin: 0 33%;
+	}
+}
+
+@media (max-width: 768px) {
+	.circle {
+		margin: 0 40%;
+	}
+}
 
 .circle-wrap {
 	float: left;
@@ -22,13 +33,12 @@
 	height: 50px;
 }
 .sample-box {
-	padding: 0px 40px;
+	padding: 20px 40px;
 	background: #7fffd4;
 	height: 800;
 }
 .sample-box-b {
-	padding: 0px 40px;
+	padding: 20px 40px;
 	color: #fd4927;
 	background: #ffeeeb;
-	height: 600px;
 }
