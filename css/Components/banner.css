@@ -21,13 +21,13 @@
 }
 @media (max-width: 992px) {
 	.portfolio-banner {
-		padding: 40px;
+		grid-gap: 45px;
 	}
 }
 
 @media (max-width: 768px) {
 	.portfolio-banner {
-		padding: 30px;
+		padding: 41px;
 	}
 }
 
@@ -38,8 +38,20 @@
 	padding: 2rem 6rem 4rem 10rem;
 	background: #fff0e1;
 }
+
 .banner-wrapper {
 	padding: 3rem 6rem 3rem 6rem;
+}
+@media (max-width: 992px) {
+	.banner-wrapper {
+		padding: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.banner-wrapper {
+		padding: 30px;
+	}
 }
 
 .twitter-wrapper {

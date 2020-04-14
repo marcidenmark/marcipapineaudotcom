@@ -62,7 +62,7 @@ p {
 .headlines {
 	font-size: 28px;
 	font-weight: 600;
-	padding: 4rem 6rem 0rem 0rem;
+	padding: 0px 0px 0px 42px;
 	color: #fc4827;
 }
 .headlines-x {
