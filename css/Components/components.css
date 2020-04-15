@@ -65,11 +65,22 @@
 	background: #7fffd4;
 	height: 800;
 }
+@media (max-width: 768px) {
+	.sample-box {
+		padding: 30px;
+	}
+}
 .sample-box-b {
 	padding: 3rem 6rem 3rem 6rem;
 	color: #fd4927;
 	background: #ffeeeb;
 }
+@media (max-width: 768px) {
+	.sample-box-b {
+		padding: 30px;
+	}
+}
+
 .button {
 	padding-top: 24px;
 }
