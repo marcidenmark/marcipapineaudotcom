@@ -34,8 +34,13 @@
 .portfolio-banner:first-child {
 	padding: 0rem 6rem 0rem 6rem;
 }
+
+.clients-banner {
+	padding: 3rem 6rem 2rem 6rem;
+}
+
 .twitter-holder {
-	padding: 2rem 6rem 4rem 10rem;
+	padding: 2rem 6rem 4rem 6rem;
 	background: #fff0e1;
 }
 
