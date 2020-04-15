@@ -78,7 +78,7 @@
 	padding: 30px;
 	/* add media query for getting rid of margin or adding ?  */
 	/* margin: 0px 40px 4px 0px; */
-	background: #fcfcfc;
+	/* background: #fcfcfc; */
 	border: 0.5px solid #fc4827;
 	border-radius: 1px;
 }

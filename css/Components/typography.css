@@ -62,15 +62,20 @@ p {
 .headlines {
 	font-size: 28px;
 	font-weight: 600;
-	padding: 0px 0px 0px 42px;
+	padding-left: 6rem;
 	color: #fc4827;
 }
-.headlines-x {
+@media (max-width: 768px) {
+	.headlines {
+		padding-left: 3rem;
+	}
+}
+/* .headlines-x {
 	font-size: 28px;
 	font-weight: 600;
-	padding: 4rem 6rem 0rem 0rem;
+	padding-left: 6rem;
 	color: #7fffd4;
-}
+} */
 .subhead {
 	font-size: 13px;
 	letter-spacing: 1px;
