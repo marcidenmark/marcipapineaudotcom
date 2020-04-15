@@ -3,12 +3,12 @@
 	height: 30px;
 }
 
-.navbar-4-wrapper {
+.navbar-wrapper {
 	background-color: #7fffd4;
 	display: flex;
 	justify-content: space-between;
-	padding: 30px 0px;
-	left: 50%;
+	padding: 30px 52px;
+	/* left: 50%; */
 }
 
 .footer {
