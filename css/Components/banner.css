@@ -70,33 +70,3 @@
 	margin-top: 15px;
 	height: 45px;
 }
-.testimonial-box {
-	margin: 30px 50px 0px 0px;
-}
-
-.portfolio-box {
-	padding: 30px;
-	/* add media query for getting rid of margin or adding ?  */
-	/* margin: 0px 40px 4px 0px; */
-	background: #fcfcfc;
-	border: 0.5px solid #fc4827;
-	border-radius: 1px;
-}
-.portfolio-box:last-child {
-	margin: 0px 0px 4px 0px;
-}
-
-.portfolio-text-only-box {
-	padding: 40px;
-	margin: 0px 40px;
-	background: #fcfcfc;
-	border: 0.5px solid #fc4827;
-	border-radius: 1px;
-}
-
-.text-only-box {
-	padding: 40px;
-	background: #fcfcfc;
-	border: 0.5px solid #fc4827;
-	border-radius: 1px;
-}
