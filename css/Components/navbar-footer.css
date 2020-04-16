@@ -29,9 +29,3 @@
 	padding: 20px 15px;
 	vertical-align: baseline;
 }
-
-@media only screen and (max-width: 600px) {
-	.footer {
-		text-align: center;
-	}
-}
