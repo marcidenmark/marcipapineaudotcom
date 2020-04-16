@@ -20,18 +20,33 @@
 		display: none;
 	}
 }
-
+.contact-footer {
+	display: grid;
+	grid-template-columns: 95% auto;
+	align-items: end;
+}
 .footer {
 	background-color: #7fffd4;
-	font-weight: 600;
 	letter-spacing: 1px;
-	margin-bottom: 0px;
-	padding: 20px 15px;
-	vertical-align: baseline;
+	padding: 2rem 6rem 4rem 6rem;
 }
-
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
 	.footer {
-		text-align: center;
+		padding: 30px;
 	}
+}
+.footer-grid {
+	margin-top: -6px;
+	display: grid;
+	grid-template-columns: 86% 20%;
+	align-items: end;
+}
+@media (max-width: 768px) {
+	.footer-grid {
+		grid-template-columns: 1fr;
+	}
+}
+.footer-social {
+	display: grid;
+	grid-template-columns: 20% 20% 20%;
 }
