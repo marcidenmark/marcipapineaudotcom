@@ -1,3 +1,14 @@
+.logo-grid-container {
+	display: grid;
+	align-items: center;
+	padding: 0rem 6rem 6rem 6rem;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+@media(max-width: 768px) {
+  .logo-grid-container {
+    display:none;
+  }
+}
 .two-col-grid-container {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -13,9 +24,6 @@
     grid-template-columns: 1fr;
   }
 }
-
-
-
 
 .portfolio-grid-container {
 	display: grid;
@@ -35,13 +43,11 @@
 	}
 }
 
-
 .four-col-grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-row-gap: 20px;
 }
-
 
 @media (max-width: 992px) {
 	.four-col-grid-container {
@@ -53,12 +59,4 @@
 	.four-col-grid-container {
 		grid-template-columns: 100%;
 	}
-}
-
-
-.logo-grid-container {
-	display: grid;
-	align-items: center;
-	padding: 0px 70px;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
 }
