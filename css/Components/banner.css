@@ -80,6 +80,11 @@
 	height: 35vh;
 	background-size: cover;
 }
+@media (max-width: 768px) {
+	.portfolio-piece {
+		display: none;
+	}
+}
 
 .company-logos {
 	margin-top: 15px;
