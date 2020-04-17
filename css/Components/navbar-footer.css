@@ -33,20 +33,25 @@
 @media (max-width: 768px) {
 	.footer {
 		padding: 30px;
+		text-align: center;
 	}
 }
-.footer-grid {
+.footer-wrapper {
 	margin-top: -6px;
 	display: grid;
-	grid-template-columns: 86% 20%;
+	grid-template-columns: 76% 30%;
 	align-items: end;
 }
 @media (max-width: 768px) {
-	.footer-grid {
+	.footer-wrapper {
 		grid-template-columns: 1fr;
 	}
 }
 .footer-social {
-	display: grid;
-	grid-template-columns: 20% 20% 20%;
+	padding-left: 0px;
+}
+@media (max-width: 768px) {
+	.footer-social {
+		padding-left: 12px;
+	}
 }
