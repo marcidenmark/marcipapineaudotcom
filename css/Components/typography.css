@@ -38,7 +38,7 @@ h4 {
 
 h5 {
 	font-size: 18px;
-	margin: 5px 0px 18px 0px;
+	margin: 5px 0px 10px 0px;
 }
 .italic {
 	font-style: italic;
@@ -85,7 +85,7 @@ p {
 	/* color: #fc4827; */
 	/* color: #61d3c9; */
 	color: #1bc3b5;
-	padding: 0px 0px 18px 0px;
+	padding: 0px 0px 15px 0px;
 	text-transform: uppercase;
 }
 @media (max-width: 768px) {
