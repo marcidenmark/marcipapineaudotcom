@@ -21,7 +21,7 @@
 	align-items: center;
 	/* background-color: #fff0e1; */
 }
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 	.banner-flex {
 		padding: 2rem 2rem;
 	}
