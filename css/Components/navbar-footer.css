@@ -33,7 +33,7 @@
 @media (max-width: 768px) {
 	.footer {
 		padding: 30px;
-		text-align: center;
+		/* text-align: center; */
 	}
 }
 .footer-wrapper {
