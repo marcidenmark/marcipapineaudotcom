@@ -5,6 +5,12 @@
 	padding: 4rem 4rem;
 	align-items: center;
 }
+@media (max-width: 360px) {
+	.banner {
+		height: 76vh;
+		padding: 2rem 2rem;
+	}
+}
 
 .banner-flex {
 	display: flex;
@@ -15,6 +21,12 @@
 	align-items: center;
 	/* background-color: #fff0e1; */
 }
+@media (max-width: 360px) {
+	.banner-flex {
+		padding: 2rem 2rem;
+	}
+}
+
 .portfolio-banner {
 	background: ;
 	padding: 1rem 6rem 1.8rem 6rem;
@@ -27,7 +39,7 @@
 
 @media (max-width: 768px) {
 	.portfolio-banner {
-		padding: 41px;
+		padding: 20px 41px;
 	}
 }
 
