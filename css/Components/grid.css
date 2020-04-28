@@ -1,3 +1,13 @@
+.about-container{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-row-gap:20px;
+	background: #ffeeeb;
+}
+.marci{
+	height: 300px;
+	float: left;
+}
 .logo-grid-container {
 	display: grid;
 	align-items: center;
@@ -13,18 +23,12 @@
 	display: grid;
 	grid-template-columns: 50% 50%;
 }
-/* @media(max-width: 992px) {
-  .cards {
-	grid-template-columns: 50% 50%;
-  }
-} */
 
 @media(max-width: 768px) {
   .two-col-grid-container {
     grid-template-columns: 1fr;
   }
 }
-
 .portfolio-grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
