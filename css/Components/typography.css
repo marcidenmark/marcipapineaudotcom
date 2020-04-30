@@ -113,8 +113,12 @@ p {
 	font-size: 15px;
 	font-weight: 500;
 }
-/* possible colors: */
-
+.about-text {
+	font-size: 30px;
+	margin-bottom: 0px;
+	font-weight: 400;
+	padding-top: 20px;
+}
 .extra-bold {
 	font-weight: 800;
 }
