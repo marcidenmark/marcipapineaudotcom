@@ -1,13 +1,24 @@
 .about-container{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-row-gap:20px;
-	background: #ffeeeb;
+	grid-template-columns: 1fr auto;
+	padding: 0rem 6rem 0rem 0rem;
+	/* background: #ffeeeb; */
+}
+@media(max-width: 768px) {
+  .about-container {
+	grid-template-columns: 1fr;
+  }
 }
 .marci{
-	height: 300px;
-	float: left;
+	height: 506px;
+	padding-right: 30px;
 }
+/* @media(max-width: 768px) {
+  .marci {
+	height: 380px;
+  }
+} */
+
 .logo-grid-container {
 	display: grid;
 	align-items: center;
