@@ -7,11 +7,12 @@
 @media(max-width: 768px) {
   .about-container {
 	grid-template-columns: 1fr;
+	padding:0px;
   }
 }
 .marci{
-	height: 506px;
-	padding-right: 30px;
+	height: 503px;
+	/* padding-right: 30px; */
 }
 /* @media(max-width: 768px) {
   .marci {
