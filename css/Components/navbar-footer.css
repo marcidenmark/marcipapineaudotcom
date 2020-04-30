@@ -39,8 +39,8 @@
 .footer-wrapper {
 	margin-top: -6px;
 	display: grid;
-	grid-template-columns: 76% 30%;
-	align-items: end;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* align-items: end; */
 }
 @media (max-width: 768px) {
 	.footer-wrapper {
@@ -49,6 +49,8 @@
 }
 .footer-social {
 	padding-left: 0px;
+	font-size: 23px;
+	margin-top: -5px;
 }
 @media (max-width: 768px) {
 	.footer-social {

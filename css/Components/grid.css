@@ -1,8 +1,8 @@
 .about-container{
 	display: grid;
 	grid-template-columns: 1fr auto;
-	padding: 0rem 6rem 6rem 6rem;
-	background: #ffeeeb;
+	padding: 0rem 6rem 0rem 0rem;
+	/* background: #ffeeeb; */
 }
 @media(max-width: 768px) {
   .about-container {
@@ -13,12 +13,11 @@
 	height: 506px;
 	padding-right: 30px;
 }
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
   .marci {
-
 	height: 380px;
   }
-}
+} */
 
 .logo-grid-container {
 	display: grid;

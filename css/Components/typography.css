@@ -113,11 +113,15 @@ p {
 	font-size: 15px;
 	font-weight: 500;
 }
+/* .about-text-container {
+	margin: 40px;
+} */
 .about-text {
-	font-size: 30px;
-	margin-bottom: 0px;
+	font-size: 26px;
+	margin: 40px;
 	font-weight: 400;
 	padding-top: 20px;
+	color: #fd4927;
 }
 .extra-bold {
 	font-weight: 800;
@@ -128,6 +132,10 @@ p {
 .semi-bold {
 	font-weight: 600;
 }
+.medium {
+	font-weight: 500;
+}
+
 .regular {
 	font-weight: 400;
 }
