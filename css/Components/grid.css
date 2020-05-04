@@ -20,12 +20,15 @@
 }
 
 .marci{
-	height: 499px;
+	height: 545px;
+	transform:rotate(0deg);
+	/* image-orientation: none; */
 }
+
 @media(max-width: 320px) {
-.marci{
+	.marci {
 	height: 499px;
-}
+	}
 }
 
 .logo-grid-container {
