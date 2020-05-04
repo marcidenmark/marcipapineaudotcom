@@ -4,24 +4,28 @@
 	padding: 0rem 6rem 0rem 0rem;
 	/* background: #ffeeeb; */
 }
+
+
 @media(max-width: 768px) {
   .about-container {
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr auto;
 	padding:0px;
   }
 }
-
-@media(max-width: 375px) {
+@media(max-width: 500px) {
   .about-container {
 	grid-template-columns: 1fr;
 	padding:0px;
   }
 }
 
-
-
 .marci{
 	height: 499px;
+}
+@media(max-width: 320px) {
+.marci{
+	height: 437px;
+}
 }
 
 .logo-grid-container {
