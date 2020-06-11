@@ -21,9 +21,10 @@
 	align-items: center;
 	/* background-color: #fff0e1; */
 }
-@media (max-width: 360px) {
+@media (max-width: 768px) {
 	.banner-flex {
 		padding: 2rem 2rem;
+		height: 45vh;
 	}
 }
 
@@ -89,7 +90,7 @@
 	display: flex;
 } */
 .portfolio-piece {
-	height: 35vh;
+	height: 47vh;
 	background-size: cover;
 }
 @media (max-width: 768px) {

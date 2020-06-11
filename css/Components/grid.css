@@ -20,7 +20,7 @@
 }
 
 .marci{
-	height: 545px;
+	height: 500px;
 	transform:rotate(0deg);
 	/* image-orientation: none; */
 }
@@ -44,7 +44,7 @@
 }
 .two-col-grid-container {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 1fr 1fr;
 }
 
 @media(max-width: 768px) {
