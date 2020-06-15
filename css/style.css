@@ -5,7 +5,7 @@
 @import url("Components/grid.css");
 @import url("Components/skills.css");
 @import url("Components/components.css");
-/* @import url("Components/flex.css"); */
+@import url("Components/modal.css");
 
 body {
 	font-family: "Poppins", sans-serif;
