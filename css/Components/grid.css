@@ -1,10 +1,25 @@
+.portfolio-detail-container{
+	background-color: #fff0e1;
+	height: 700px;
+	box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+}
+
+.box	{
+    background-size: cover;
+		padding: 4rem 6rem;
+		background-color: #fff0e1;
+}
+
 .about-container{
 	display: grid;
 	grid-template-columns: 1fr auto;
 	padding: 0rem 6rem 0rem 0rem;
-	/* background: #ffeeeb; */
 }
-
+.stine-container{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding: 0rem 0rem 0rem 0rem;
+}
 
 @media(max-width: 768px) {
   .about-container {
@@ -87,3 +102,5 @@
 		grid-template-columns: 100%;
 	}
 }
+
+
