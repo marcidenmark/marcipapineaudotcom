@@ -47,9 +47,12 @@ h5 {
 h6 {
 	font-size: 16px;
 	line-height: 36px;
-	margin-top: 0px;
+	/* margin-top: 0px; */
 	font-weight: 700;
+	margin-bottom: 10px;
+	/* margin-top: 20px; */
 }
+
 /* .quote-mark {
 	font-size: 20px;
 } */
@@ -62,6 +65,12 @@ h6 {
 }
 
 p {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.65px;
+}
+.caption {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 26px;

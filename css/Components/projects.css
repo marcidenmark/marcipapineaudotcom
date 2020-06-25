@@ -1,0 +1,30 @@
+.project-wrapper {
+	margin: 0px 20vh;
+}
+.project-banner {
+	height: 40vh;
+	background-size: cover;
+	padding: 4rem 4rem;
+	align-items: center;
+}
+
+.proj-pic {
+	height: 40vh;
+	background-size: cover;
+	padding: 4rem 4rem;
+	align-items: center;
+}
+
+.proj-lyng-process-1 {
+	height: 600px;
+}
+.proj-text-wrapper {
+	margin: 0px 100px;
+}
+
+/* @media (max-width: 360px) {
+	.project-banner {
+		height: 76vh;
+		padding: 2rem 2rem;
+	}
+} */
