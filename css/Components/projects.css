@@ -1,11 +1,12 @@
-.project-wrapper {
-	margin: 0px 20vh;
-}
 .project-banner {
 	height: 40vh;
 	background-size: cover;
 	padding: 4rem 4rem;
 	align-items: center;
+}
+
+.project-wrapper {
+	margin: 0px 80px;
 }
 
 .proj-pic {
