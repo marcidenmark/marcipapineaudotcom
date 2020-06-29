@@ -6,13 +6,20 @@
 }
 
 .project-wrapper {
-	margin: 0px 15%;
+	margin: 40px 20px;
 }
 
 .proj-pic {
 	height: 40vh;
 	background-size: cover;
 	padding: 4rem 4rem;
+	align-items: center;
+}
+
+.proj-pic-b {
+	height: 75vh;
+	/* background-size: cover; */
+	/* padding: 4rem 4rem; */
 	align-items: center;
 }
 
@@ -39,3 +46,8 @@
 		padding: 2rem 2rem;
 	}
 } */
+/* .portfolio-banner {
+	background: ;
+	padding: 10px;
+} */
+/* above, that class is already being used */
