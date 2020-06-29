@@ -6,10 +6,7 @@
 }
 
 .project-wrapper {
-	margin: 0px 15%;
-}
-
-.project-wrapper-b {
+	margin: 40px 20px;
 }
 
 .proj-pic {
@@ -49,7 +46,8 @@
 		padding: 2rem 2rem;
 	}
 } */
-.portfolio-banner {
+/* .portfolio-banner {
 	background: ;
 	padding: 10px;
-}
+} */
+/* above, that class is already being used */
