@@ -1,3 +1,5 @@
+/* font-family: 'DM Mono', monospace; */
+
 /* font-family: 'Poppins', sans-serif;
 400, 400i, 600,700,800,800i,900
 */
@@ -70,9 +72,18 @@ p {
 	line-height: 26px;
 	letter-spacing: 0.65px;
 }
+.p-margin-top-none {
+	margin-top: 0px;
+}
+
+/* grey type add below */
+.grey {
+	/* color: #757575; */
+	color: #616161;
+}
 .caption {
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 26px;
 	letter-spacing: 0.65px;
 }
@@ -106,6 +117,7 @@ p {
 	font-weight: 600;
 	padding-left: none;
 	color: #fc4827;
+	margin-top: 30px;
 }
 .subhead {
 	font-size: 13px;

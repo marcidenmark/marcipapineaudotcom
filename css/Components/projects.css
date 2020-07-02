@@ -1,3 +1,27 @@
+.banner-case {
+	height: 60vh;
+	background-size: cover;
+	align-items: center;
+	margin: 0px 67px 25px 67px;
+}
+@media (max-width: 900px) {
+	.banner-case {
+		margin: 10px 0px 30px 0px;
+	}
+}
+
+.case-text-box {
+	padding: 00px 200px 50px 150px;
+}
+@media (max-width: 900px) {
+	.case-text-box {
+		padding: 0px 30px 30px 30px;
+	}
+}
+.case-text-header {
+	margin: 0px 67px 2px 67px;
+}
+/* below for image on top of process pages */
 .project-banner {
 	height: 40vh;
 	background-size: cover;
@@ -33,13 +57,14 @@
 	margin-top: 50px;
 }
 .process-pic-middle {
-	margin-left: 33%;
+	margin-left: 20%;
 }
 
 .project-border {
 	border: 0.5px solid #fc4827;
 	/* margin: 20px; */
 }
+
 /* @media (max-width: 360px) {
 	.project-banner {
 		height: 76vh;
