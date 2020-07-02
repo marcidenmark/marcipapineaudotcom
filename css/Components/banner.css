@@ -12,6 +12,14 @@
 	}
 }
 
+/* .banner-case {
+	height: 60vh;
+	background-size: cover;
+	align-items: center;
+	margin: 0px 67px 67px 67px;
+
+} */
+
 .banner-flex {
 	display: flex;
 	flex-wrap: wrap;
@@ -29,18 +37,17 @@
 }
 
 .portfolio-banner {
-	background: ;
 	padding: 1rem 6rem 1.8rem 6rem;
 }
 @media (max-width: 992px) {
 	.portfolio-banner {
-		grid-gap: 45px;
+		padding: 1rem 5rem;
 	}
 }
 
 @media (max-width: 768px) {
 	.portfolio-banner {
-		padding: 20px 41px;
+		padding: 20px;
 	}
 }
 
