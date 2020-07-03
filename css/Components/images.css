@@ -1,0 +1,9 @@
+/* .to-hide-mobile {
+}
+ */
+
+@media (max-width: 768px) {
+	.to-hide-mobile {
+		display: none;
+	}
+}
