@@ -82,10 +82,10 @@ p {
 	color: #616161;
 }
 .caption {
-	font-size: 12px;
-	font-weight: 500;
+	font-size: 14px;
 	line-height: 26px;
 	letter-spacing: 0.65px;
+	color: #fd4927;
 }
 
 .plat-intro-p {
@@ -117,7 +117,7 @@ p {
 	font-weight: 600;
 	padding-left: none;
 	color: #fc4827;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .subhead {
 	font-size: 13px;

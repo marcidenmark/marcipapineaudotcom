@@ -28,11 +28,9 @@
 	padding: 4rem 4rem;
 	align-items: center;
 }
-
 .project-wrapper {
 	margin: 40px 20px;
 }
-
 .proj-pic {
 	height: 40vh;
 	background-size: cover;
@@ -63,6 +61,12 @@
 .project-border {
 	border: 0.5px solid #fc4827;
 	/* margin: 20px; */
+}
+.project-caption {
+	padding-right: 32px;
+	width: 191px;
+	margin: 100px 0px;
+	color: #fd4927;
 }
 
 /* @media (max-width: 360px) {
