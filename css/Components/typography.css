@@ -72,8 +72,9 @@ p {
 	line-height: 26px;
 	letter-spacing: 0.65px;
 }
+/* below, actually 5 */
 .p-margin-top-none {
-	margin-top: 0px;
+	margin-top: 5px;
 }
 
 /* grey type add below */
