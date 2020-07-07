@@ -72,6 +72,7 @@ p {
 	line-height: 26px;
 	letter-spacing: 0.65px;
 }
+
 /* below, actually 5 */
 .p-margin-top-none {
 	margin-top: 5px;
@@ -164,9 +165,9 @@ p {
 .extra-bold {
 	font-weight: 800;
 }
-/* .bold {
+.bold {
 	font-weight: 700;
-} */
+}
 .semi-bold {
 	font-weight: 600;
 }
