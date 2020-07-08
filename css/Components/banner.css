@@ -97,7 +97,7 @@
 	display: flex;
 } */
 .portfolio-piece {
-	height: 47vh;
+	height: 34vh;
 	background-size: cover;
 }
 @media (max-width: 768px) {
