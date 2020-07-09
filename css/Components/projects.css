@@ -69,6 +69,12 @@
 	color: #fd4927;
 }
 
+.project-caption-2 {
+	padding: 40px 74px 0px 0px;
+	/* margin: 100px 0px; */
+	color: #fd4927;
+}
+
 /* @media (max-width: 360px) {
 	.project-banner {
 		height: 76vh;
