@@ -63,6 +63,7 @@
 	/* margin: 20px; */
 }
 .project-caption {
+	font-size: 14px;
 	padding-right: 32px;
 	width: 191px;
 	margin: 100px 0px;
@@ -70,6 +71,7 @@
 }
 
 .project-caption-2 {
+	font-size: 14px;
 	padding: 40px 74px 0px 0px;
 	/* margin: 100px 0px; */
 	color: #fd4927;
