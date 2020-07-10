@@ -7,48 +7,29 @@
 		<title>marci papineau | design & code</title>
 		<meta
 			name="description"
-			content="Marcipapineau.com Design, Product Development and Code for the print and digital world."
+			content="A mentoring platform for women in tech in Copenhagen"
 		/>
 
 		<!-- general og:tags -->
-		<meta property="og:title" content="Marci Papineau –  Designer + Coder" />
-		<meta property="og:url" content="https://www.marcipapineau.com/" />
-		<meta
-			property="og:image"
-			content="http://marcipapineau.com/images/marcipapineaudocom.jpg"
-		/>
+		<meta property="og:title" content="RailsGirls Mentorship platform" />
+		<meta property="og:url" content="https://www.websitename.com/" />
+		<meta property="og:image" content="http://website.com/images/" />
 
 		<!-- linkedin -->
-		<meta
-			name="image"
-			property="og:image"
-			content="https://marcipapineau.com/images/marcipapineaudocom.jpg"
-		/>
+		<meta name="image" property="og:image" content="" />
 
-		<meta
-			property="og:description"
-			content="The place to go in Copenhagen for quick websites, and startup prototypes. Always mobile friendly webdesign."
-		/>
-		<meta property="og:site_name" content="www.marcipapineau.com" />
+		<meta property="og:description" content="" />
+		<meta property="og:site_name" content="www.name.com" />
 
 		<!-- twitter -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@marcipapineau" />
-		<meta name="twitter:title" content="marci papineau | design & code" />
-		<meta
-			name="twitter:description"
-			content="Marcipapineau.com – Design, Product Development and Code for the print and digital world."
-		/>
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:description" content="" />
 		<meta name="twitter:creator" content="@MarciPapineau" />
-		<meta
-			name="twitter:image:src"
-			content="https://marcipapineau.com/images/marcipapineaudocom.jpg"
-		/>
+		<meta name="twitter:image:src" content="" />
 
-		<meta
-			property="og:image"
-			content="https://marcipapineau.com/images/marcipapineaudocom.jpg"
-		/>
+		<meta property="og:image" content="https://" />
 		<meta name="format-detection" content="telephone=no" />
 
 		<link
@@ -61,35 +42,62 @@
 	</head>
 
 	<style>
+		body {
+			background: #eb3349; /* fallback for old browsers */
+			background: -webkit-linear-gradient(
+				to right,
+				#fb826e,
+				#eb3349
+			); /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(
+				to right,
+				#fb826e,
+				#eb3349
+			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+		h1 {
+			font-family: "DM Mono", monospace;
+			font-weight: 400;
+			color: white;
+			font-size: 61px;
+			text-align: center;
+		}
+		@media (max-width: 900px) {
+			h1 {
+				font-size: 30px;
+			}
+		}
 		.navbar-railsG {
-			background-color: rgba(0, 0, 0, 0.73);
+			background-color: rgba(0, 0, 0, 0.3);
 			display: flex;
 			justify-content: space-between;
-			padding: 1rem 4rem;
+			padding: 0.5rem 4rem;
 			box-shadow: 2px 10px 50px -5px rgba(145, 145, 145, 49);
 			position: -webkit-sticky;
 			position: sticky;
 			top: 0;
 			z-index: 50;
 		}
-
-		body {
-			background: #eb3349; /* fallback for old browsers */
-			background: -webkit-linear-gradient(
-				to right,
-				#f45c43,
-				#eb3349
-			); /* Chrome 10-25, Safari 5.1-6 */
-			background: linear-gradient(
-				to right,
-				#f45c43,
-				#eb3349
-			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		.rails-banner {
+			padding: 80px;
 		}
-
-		h1 {
-			font-family: "DM Mono", monospace;
-			font-weight: 400;
+		.flex-container {
+			display: flex;
+			justify-content: center;
+		}
+		.button-railsg {
+			color: white;
+			font-weight: 500;
+			text-align: center;
+			background-color: #fd4927;
+			padding: 8px;
+			margin: 15px 0px;
+			box-shadow: 2px 4px 10px rgba(186, 186, 186, 0.25);
+			border-radius: 10px;
+			width: 200px;
+		}
+		.leading-20 {
+			height: 20px;
 		}
 	</style>
 
@@ -102,37 +110,29 @@
 			</div>
 			<div class="links-container flex-end">
 				<ul>
-					<a href="#accomplishments" class="nav">
-						<li>lorem</li>
-					</a>
-					<a href="#testimonials" class="nav">
-						<li>ipmsum</li>
-					</a>
-					<a href="#services" class="nav">
-						<li>consectetur</li>
-					</a>
-
-					<a href="#about" class="nav">
-						<li>magnam</li>
-					</a>
-
-					<a href="#clients" class="nav">
-						<li>illum</li>
-					</a>
-
-					<!-- <a href="#contact" class="nav">
-            <li>techique</li>
-          </a> -->
-
-					<a href="#contact" class="nav">
-						<li>contact</li>
+					<a href="#" class="nav">
+						<li style="color: #5ae8dc;">Membership</li>
 					</a>
 				</ul>
 			</div>
 		</div>
-		<h1>
-			Welcome to RailsGirls Copenhagn's <br />
-			Mentor / Mentee App!
-		</h1>
+		<div class="rails-banner">
+			<div class="flex-container">
+				<div class="computer-logo">
+					<img src="images/RG_Computer_White.svg" height="100px" alt="" />
+				</div>
+			</div>
+			<h1>
+				Welcome to RailsGirls <br />
+				Copenhagen's <br />
+				Mentorship Platform!
+			</h1>
+			<div class="leading-20"></div>
+			<div class="flex-container">
+				<div class="button-railsg flex">
+					sign up!
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
