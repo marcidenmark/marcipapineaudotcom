@@ -99,6 +99,7 @@
 .portfolio-piece {
 	height: 34vh;
 	background-size: cover;
+	width: 100%;
 }
 @media (max-width: 768px) {
 	.portfolio-piece {
