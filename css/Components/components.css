@@ -1,3 +1,8 @@
+.button-bottom {
+	transform: translateY(-100%);
+	display: inline-block;
+}
+
 .circle {
 	margin: 0 25%;
 	border-radius: 50%;
