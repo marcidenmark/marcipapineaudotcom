@@ -98,7 +98,7 @@
       <div class="headlines">Portfolio</div>
 
     <div class="portfolio-banner">
-      <section class="two-col-grid-container">
+      <section class="">
         <!-- Railsgirls
         <div class="portfolio-box">
           <h5>RailsGirls Mentoring App</h5>
@@ -114,8 +114,11 @@
           </p>
         </div> -->
 
+
+      <div class="card-holder-flex">
+
         <!-- lyndgaard media -->
-        <div class="portfolio-box">
+        <div class="portfolio-box card-flex">
           <h5>
             <a href="http://lyndgaardmedia.dk/" target="_blank" class="website-link"> Lyndgaard Media</a>
          </h5>
@@ -133,14 +136,16 @@
             After making low fidelity wireframes, was able to  quickly complete the design directly with HTML and CSS in the browser— so no high
             fidelity comps were needed–  <strong>thus saving time and money.</strong>
           </p>
-          <a href="case-study-lyngaard.html">
-            <div class="button-read-more">
-              SEE CASE STUDY
-            </div>
-          </a>
-        </div>
+          <div style="width:100%">
+            <a href="case-study-lyngaard.html">
+              <div class="button-read-more">
+                SEE CASE STUDY
+              </div>
+            </a>
+        	</div>
+      </div>
 
-        <div class="portfolio-box">
+        <div class="portfolio-box card-flex">
             <h5>Platypus</h5>
             <div class="subhead">
               Frontend Design & Code / Product Development / UX / UI
@@ -154,69 +159,82 @@
           <p>
             Coded and designed an onboarding process and dashboard – writing CSS directly in the browser for rapid prototyping. Product optimized for ALL screen types.
           </p>
-
-          <a href="case-study-platypus.html">
-            <div class="button-read-more">
-              SEE CASE STUDY
-            </div>
-          </a>
+          <div style="width:100%">
+	          <a href="case-study-platypus.html">
+	            <div class="button-read-more">
+	              SEE CASE STUDY
+	            </div>
+	          </a>
+          </div>
         </div>
+      </div>
 
-        <!-- mmt -->
-        <div class="portfolio-box">
-            <h5>Match My Thesis</h5>
-              <div class="subhead">
-              Product Development / Responsive Web Design / Ruby on Rails Development  / User Experience & Interface Design
+
+
+        <div class="card-holder-flex">
+          <!-- mmt with flex-->
+          <div class="portfolio-box card-flex">
+            <div>
+              <h5>Match My Thesis</h5>
+                <div class="subhead">
+                Product Development / Responsive Web Design / Ruby on Rails Development  / User Experience & Interface Design
+                </div>
+              <div class="portfolio-piece" style="background-image: url('images/mmt.jpg');">
               </div>
-            <div class="portfolio-piece" style="background-image: url('images/mmt.jpg');">
-            </div>
-            <p>
-            <a href="https://www.matchmythesis.com" target="_blank" class="website-link">
-            <span class="
-                proj-name semi-bold">MatchMyThesis.com </span> </a>
-              Created a fully responsive web application in collaboration with two other developers. Collaborated with team to to
-              create user journeys and database (DB) layout. Based on the DB foundation, created wireframes and then designed,
-              and coded the frontend.
+              <p>
+                <a href="https://www.matchmythesis.com" target="_blank" class="website-link">
+                <span class="proj-name semi-bold">MatchMyThesis.com </span> </a>
+                Created a fully responsive web application in collaboration with two other developers. Collaborated with team to to
+                create user journeys and database (DB) layout. Based on the DB foundation, created wireframes and then designed,
+                and coded the frontend.
                 <p>
                 Tech stack used: Ruby On Rails, SCSS, Bootstrap, Git, Heroku, Sketch, Illustrator and Photoshop.
                 Features include a homepage, login forms and student and company pages.
                 </p>
-
+            </div>
+            <!-- button full width -->
+            <div style="width:100%">
               <a href="">
                 <div class="button-read-more ">
                   CASE STUDY COMING SOON
                 </div>
               </a>
-          </div>
-
-        <!-- cphux -->
-        <div class="portfolio-box">
-          <h5>CPHUX </h5>
-          <div class="subhead">
-            Django Development / Frontend Code / Product Development / Style Guide in Code
-          </div>
-          <div class="portfolio-piece" style="background-image: url('images/cphux-banner.png');">
-          </div>
-          <p>
-          <a href="http://cphux.com/" target="_blank" class="website-link">
-            <span class="proj-name semi-bold">CPHUX.com</span> </a>
-          Working together with a talented full stack developer, designed and coded HTML/CSS for a fully responsive
-          website/application using, Python, Django, HTML, CSS and Bootstrap.
-          </p>
-          <p>
-          Functionality includes a homepage where a user
-          can create a membership, join, and pay-  as well as subpages to see what classes the organization was hosting and the
-          ability to sign up.
-          This was all done with an MVP approach so the product could be quickly released - <strong> thus making
-          payments for membership available. </strong>
-          </p>
-          <a href="case-study-cphux.html">
-            <div class="button-read-more">
-              CASE STUDY COMING SOON
             </div>
-          </a>
+          </div>
+          <!-- above end of MMT -->
+          <!-- cphux with flex -->
+          <div class="portfolio-box card-flex">
+            <div>
+              <h5>CPHUX </h5>
+              <div class="subhead">
+                Django Development / Frontend Code / Product Development / Style Guide in Code / Responsive Web Design
+              </div>
+              <div class="portfolio-piece" style="background-image: url('images/cphux-banner.png');">
+              </div>
+              <p>
+              <a href="http://cphux.com/" target="_blank" class="website-link">
+                <span class="proj-name semi-bold">CPHUX.com</span> </a>
+              Working together with a talented full stack developer, designed and coded HTML/CSS for a fully responsive
+              website/application using, Python, Django, HTML, CSS and Bootstrap.
+              </p>
+              <p>
+              Functionality includes a homepage where a user
+              can create a membership, join, and pay-  as well as subpages to see what classes the organization was hosting and the
+              ability to sign up.
+              This was all done with an MVP approach so the product could be quickly released - <strong> thus making
+              payments for membership available. </strong>
+              </p>
+            </div>
+          <!-- button full width -->
+            <div style="width:100%">
+              <a href="case-study-cphux.html">
+                <div class="button-read-more">
+                  CASE STUDY COMING SOON
+                </div>
+              </a>
+            </div>
         </div>
-
+      </div>
         <!-- <div class="portfolio-box">
           <h5>RailsGirls</h5>
           <div class="subhead">
@@ -289,6 +307,7 @@
         </div> -->
       </section>
     </div>
+    <!-- above end of portfolio banner -->
   <!-- testimonials -->
       <div class="banner-wrapper peach-background">
         <a name="testimonials"></a>
@@ -364,7 +383,6 @@
         </div>
 
       </div>
-
 
         <!-- banner of clients and logos -->
         <div class="clients-banner">
@@ -461,7 +479,6 @@
           </div>
         </div>
 
-
     <!-- about / services / skills -->
     <div class="two-col-grid-container">
       <div class="sample-box">
@@ -520,23 +537,21 @@
         </p>
         <p class="medium">
           I make websites and SaaS products – combining code and design for quick beautiful solutions. </p>
-        <p class="medium">  I often design with code – directly in the browser to it can save time and money.
+        <p class="medium">  I often design with code – directly in the browser saving time and money.
           When designing in code, we become aware of dificulties that may arise from a design, and can tackle
           them early in the process.
         </p>
-        <p class="medium">At the same time, in order to test the product I can work in Figma.</p>
+        <!-- <p class="medium">At the same time, in order to test the product I can work in Figma.</p> -->
         <p><strong>Note to Companies Looking for help</strong> <br>
         I can create quick iterations from wireframes and sketches to beautifully coded websites and interfaces.</p>
         <p><strong>Note to developers creating products </strong> <br>
           With the wireframes created, I can code them into pixel perfect interfaces. I have done full stack work with Rails, Django and React, and understand how to communicate with the backend people.
         <p> <strong>Special note to CEO’s, COOs… </strong> <br>
-          I specialise in startups needing quick deployment. As a startup, you want the most for your money. Hire me and I will do your frontend design / UI and code at the same time.
+          I specialise in startups needing quick deployment. As a startup, you want the most for your money. Hire me and I will do your frontend design, UI and code simultaneously.
         </p>
         </p>
       </div>
     </div>
-
-
 
     <!-- Below sample of using video -->
     <!-- <section>
@@ -562,7 +577,7 @@
         </div>
     </div> -->
 
-    <!-- new about me -->
+    <!--  about  -->
     <div class="about-container">
       <div>
         <img src="images/marci-4.jpeg" alt="" class="marci">
