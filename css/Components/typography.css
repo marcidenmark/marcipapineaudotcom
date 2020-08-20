@@ -124,6 +124,12 @@ p {
 	color: #fc4827;
 	margin-top: 50px;
 }
+@media (max-width: 768px) {
+	.headlines-in-banner {
+		margin-top: 30px;
+	}
+}
+
 .subhead {
 	font-size: 13px;
 	line-height: 2em;
