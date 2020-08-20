@@ -36,14 +36,14 @@
 	}
 }
 
-.portfolio-banner {
+/* .portfolio-banner {
 	padding: 1rem 6rem 1.8rem 6rem;
 }
 @media (max-width: 992px) {
 	.portfolio-banner {
 		padding: 1rem 5rem;
 	}
-}
+} */
 
 @media (max-width: 768px) {
 	.portfolio-banner {
