@@ -21,6 +21,12 @@
 .case-text-header {
 	margin: 0px 67px 2px 67px;
 }
+@media (max-width: 768px) {
+	.case-text-header {
+		margin: 0px 67px 2px 50px;
+	}
+}
+
 /* below for image on top of process pages */
 .project-banner {
 	height: 40vh;
