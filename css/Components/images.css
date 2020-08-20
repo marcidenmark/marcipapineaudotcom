@@ -13,3 +13,22 @@
 		height: 133px;
 	}
 }
+
+/* UI cards */
+.platypus-cards {
+	height: 169px;
+}
+@media (max-width: 768px) {
+	.platypus-cards {
+		height: 50px;
+	}
+}
+/* fitlering pic */
+.devices-filter-plat {
+	height: 325px;
+}
+@media (max-width: 768px) {
+	.devices-filter-plat {
+		height: 148px;
+	}
+}
