@@ -4,7 +4,12 @@
 	}
 }
 /* Below, Platypus subpage */
+/* 3 devices image */
 .devices-plat-3 {
 	height: 400px;
-	height: 100%;
+}
+@media (max-width: 768px) {
+	.devices-plat-3 {
+		height: 133px;
+	}
 }
