@@ -1,9 +1,10 @@
-/* .to-hide-mobile {
-}
- */
-
 @media (max-width: 768px) {
 	.to-hide-mobile {
 		display: none;
 	}
+}
+/* Below, Platypus subpage */
+.devices-plat-3 {
+	height: 400px;
+	height: 100%;
 }
