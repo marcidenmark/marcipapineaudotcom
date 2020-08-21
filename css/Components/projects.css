@@ -11,8 +11,8 @@
 }
 /* below width 70vw is a test */
 .case-text-box {
-	padding: 00px 150px 50px 150px;
-	width: 70vw;
+	padding: 00px 150px 50px 50px;
+	/* width: 70vw; */
 }
 @media (max-width: 900px) {
 	.case-text-box {
