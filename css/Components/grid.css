@@ -50,7 +50,7 @@
 	display: grid;
 	align-items: center;
 	padding: 0rem 6rem 6rem 6rem;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
 @media(max-width: 768px) {
   .logo-grid-container {
