@@ -97,15 +97,15 @@
 	display: flex;
 } */
 .portfolio-piece {
-	height: 34vh;
+	height: 45vh;
 	background-size: cover;
 	width: 100%;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.portfolio-piece {
 		display: none;
 	}
-}
+} */
 
 .company-logos {
 	margin-top: 15px;
