@@ -22,6 +22,12 @@
 		width: 80%;
 	}
 }
+.border-bottom {
+	border-bottom: solid 3px rgba(127, 255, 212);
+	margin-top: -7px;
+	width: 100%;
+	z-index: 30;
+}
 
 .button-bottom {
 	transform: translateY(-100%);
@@ -102,6 +108,10 @@
 .spacing-50px {
 	height: 50px;
 }
+.spacing-70px {
+	height: 70px;
+}
+
 .sample-box {
 	padding: 1.5rem 6rem 3rem 8rem;
 	background: #7fffd4;
