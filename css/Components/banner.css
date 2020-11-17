@@ -101,11 +101,11 @@
 	background-size: cover;
 	width: 100%;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.portfolio-piece {
-		display: none;
+		height: 25vh;
 	}
-} */
+}
 
 .company-logos {
 	margin-top: 15px;
