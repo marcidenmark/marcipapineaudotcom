@@ -1,8 +1,8 @@
 .banner-case {
-	height: 60vh;
+	height: 55vh;
 	background-size: cover;
 	align-items: center;
-	margin: 0px 67px 25px 67px;
+	margin: 0px 167px 25px 67px;
 }
 @media (max-width: 900px) {
 	.banner-case {
