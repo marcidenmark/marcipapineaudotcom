@@ -1,49 +1,49 @@
-.portfolio-detail-container{
+.portfolio-detail-container {
 	background-color: #fff0e1;
 	height: 700px;
-	box-shadow: 0 15px 35px rgba(126,87,88,.1), 0 5px 15px rgba(0,0,0,.07);
+	box-shadow: 0 15px 35px rgba(126, 87, 88, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
 }
 
-.box	{
-    background-size: cover;
-		padding: 4rem 6rem;
-		background-color: #fff0e1;
+.box {
+	background-size: cover;
+	padding: 4rem 6rem;
+	background-color: #fff0e1;
 }
 
-.about-container{
+.about-container {
 	display: grid;
 	grid-template-columns: 1fr auto;
 	padding: 0rem 6rem 0rem 0rem;
 }
-.about-container{
+.about-container {
 	display: grid;
 	grid-template-columns: 1fr auto;
 	padding: 0rem 6rem 0rem 0rem;
 }
 
-@media(max-width: 768px) {
-  .about-container {
-	grid-template-columns: 1fr auto;
-	padding:0px;
-  }
+@media (max-width: 768px) {
+	.about-container {
+		grid-template-columns: 1fr auto;
+		padding: 0px;
+	}
 }
-@media(max-width: 500px) {
-  .about-container {
-	grid-template-columns: 1fr;
-	padding:0px;
-  }
+@media (max-width: 500px) {
+	.about-container {
+		grid-template-columns: 1fr;
+		padding: 0px;
+	}
 }
 
-.marci{
+.marci {
 	width: 100%;
-	transform:rotate(0deg);
+	transform: rotate(0deg);
 
 	/* image-orientation: none; */
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
 	.marci {
-	height: 499px;
+		height: 499px;
 	}
 }
 
@@ -53,10 +53,10 @@
 	padding: 0rem 6rem 6rem 6rem;
 	grid-template-columns: auto auto auto auto auto auto auto auto auto;
 }
-@media(max-width: 768px) {
-  .logo-grid-container {
-    display:none;
-  }
+@media (max-width: 768px) {
+	.logo-grid-container {
+		display: none;
+	}
 }
 .two-col-grid-container {
 	display: grid;
@@ -73,10 +73,10 @@
   }
 } */
 
-@media(max-width: 768px) {
-  .two-col-grid-container {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 768px) {
+	.two-col-grid-container {
+		grid-template-columns: 1fr;
+	}
 }
 .portfolio-grid-container {
 	display: grid;
@@ -108,14 +108,13 @@
 
 @media (max-width: 992px) {
 	.four-col-grid-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 
-@media (max-width: 768px) {
-	.four-col-grid-container {
-		grid-template-columns: 100%;
+	@media (max-width: 768px) {
+		.four-col-grid-container {
+			grid-template-columns: 100%;
+		}
 	}
 }
-
-
