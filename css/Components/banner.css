@@ -36,6 +36,23 @@
 	}
 }
 
+.banner-flex-shorter {
+	display: flex;
+	flex-wrap: wrap;
+	height: 45vh;
+	background-size: cover;
+	padding: 4rem 6rem;
+	align-items: center;
+	margin-top: 4rem;
+	/* background-color: #fff0e1; */
+}
+@media (max-width: 768px) {
+	.banner-flex {
+		padding: 2rem 2rem;
+		height: 35vh;
+	}
+}
+
 .portfolio-banner {
 	padding: 1rem 6rem 0rem 6rem;
 }
