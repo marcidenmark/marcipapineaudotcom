@@ -62,16 +62,22 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+@media (max-width: 768px) {
+	.two-col-grid-container {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
 
 .two-col-grid-container-b {
 	display: grid;
 	grid-template-columns: auto 1fr;
 }
-/* @media(max-width: 768px) {
-  .two-col-grid-container-b {
-    grid-template-columns: 1fr;
-  }
-} */
+@media (max-width: 768px) {
+	.two-col-grid-container-b {
+		grid-template-columns: 1fr;
+	}
+}
 
 @media (max-width: 768px) {
 	.two-col-grid-container {
