@@ -39,7 +39,7 @@
 .banner-flex-shorter {
 	display: flex;
 	flex-wrap: wrap;
-	height: 45vh;
+	/* height: 45vh; */
 	background-size: cover;
 	padding: 4rem 6rem;
 	align-items: center;
