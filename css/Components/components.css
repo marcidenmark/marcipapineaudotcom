@@ -119,7 +119,7 @@
 }
 @media (max-width: 768px) {
 	.sample-box {
-		padding: 30px;
+		padding: 20px 35px 20px 44px;
 	}
 }
 .sample-box-b {
@@ -129,10 +129,9 @@
 }
 @media (max-width: 768px) {
 	.sample-box-b {
-		padding: 30px;
+		padding: 20px 35px 20px 44px;
 	}
 }
-
 .sample-box-2 {
 	/* padding: 3rem 6rem 3rem 6rem; */
 	height: 800;
