@@ -35,21 +35,26 @@
 		height: 45vh;
 	}
 }
-
+@media (max-width: 768px) {
+	.banner-flex {
+		padding: 2rem 2rem;
+		height: 35vh;
+	}
+}
 .banner-flex-shorter {
 	display: flex;
 	flex-wrap: wrap;
 	/* height: 45vh; */
 	background-size: cover;
-	padding: 4rem 6rem;
+	padding: 4rem 9rem;
 	align-items: center;
 	margin-top: 4rem;
-	/* background-color: #fff0e1; */
+	font-size: 26px;
+	font-weight: 700;
 }
-@media (max-width: 768px) {
-	.banner-flex {
-		padding: 2rem 2rem;
-		height: 35vh;
+@media (max-width: 375px) {
+	.banner-flex-shorter {
+		padding: 4rem 3rem;
 	}
 }
 
