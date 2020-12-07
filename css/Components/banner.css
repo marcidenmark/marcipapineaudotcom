@@ -57,9 +57,13 @@
 		padding: 4rem 3rem;
 	}
 }
-
-.portfolio-banner {
+/*  portfolio banner front page */
+.portfolio-banner-frontpage {
 	padding: 1rem 6rem 0rem 6rem;
+}
+.portfolio-banner {
+	max-width: 1000px;
+	margin: 0 auto;
 }
 @media (max-width: 992px) {
 	.portfolio-banner {
