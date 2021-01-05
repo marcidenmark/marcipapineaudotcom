@@ -12,6 +12,11 @@
 	}
 }
 
+.paralax {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 /* .banner-case {
 	height: 60vh;
 	background-size: cover;
