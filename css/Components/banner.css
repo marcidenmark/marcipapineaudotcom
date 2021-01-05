@@ -12,11 +12,6 @@
 	}
 }
 
-/* .paralax {
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-} */
-
 /* .banner-case {
 	height: 60vh;
 	background-size: cover;
@@ -32,7 +27,6 @@
 	background-size: cover;
 	padding: 4rem 6rem;
 	align-items: center;
-	/* background-color: #fff0e1; */
 }
 @media (max-width: 768px) {
 	.banner-flex {
