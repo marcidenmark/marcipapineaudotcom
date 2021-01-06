@@ -12,13 +12,8 @@
 
 .about-container {
 	display: grid;
-	grid-template-columns: 1fr auto;
-	padding: 0rem 6rem 0rem 0rem;
-}
-.about-container {
-	display: grid;
-	grid-template-columns: 1fr auto;
-	padding: 0rem 6rem 0rem 0rem;
+	grid-template-columns: 1fr 2fr;
+	padding: 1rem 6rem 0rem 6rem;
 }
 
 @media (max-width: 768px) {
