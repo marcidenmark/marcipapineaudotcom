@@ -10,5 +10,19 @@
     "plaintext",
     "html",
     "jsonc"
+  ],
+  "prettier.cssEnable": [
+    "css",
+    "less",
+    "scss",
+    "postcss"
   ]
+}
+
+
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
