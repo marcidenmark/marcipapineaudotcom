@@ -5,6 +5,7 @@
 	padding: 4rem 4rem;
 	align-items: center;
 }
+
 @media (max-width: 360px) {
 	.banner {
 		height: 76vh;
@@ -23,23 +24,26 @@
 .banner-flex {
 	display: flex;
 	flex-wrap: wrap;
-	height: 55vh;
+	height: 45vh;
 	background-size: cover;
 	padding: 4rem 6rem;
 	align-items: center;
 }
+
 @media (max-width: 768px) {
 	.banner-flex {
 		padding: 2rem 2rem;
 		height: 45vh;
 	}
 }
+
 @media (max-width: 768px) {
 	.banner-flex {
-		padding: 2rem 2rem;
-		height: 35vh;
+		padding: 1rem 3rem;
+		height: 51vh;
 	}
 }
+
 .banner-flex-shorter {
 	display: flex;
 	flex-wrap: wrap;
@@ -51,19 +55,29 @@
 	font-size: 26px;
 	font-weight: 700;
 }
+
 @media (max-width: 375px) {
 	.banner-flex-shorter {
 		padding: 4rem 3rem;
 	}
 }
+
 /*  portfolio banner front page */
 .portfolio-banner-frontpage {
 	padding: 1rem 6rem 0rem 6rem;
 }
+
+@media (max-width: 768px) {
+	.portfolio-banner-frontpage {
+		padding: 1rem 3rem 0rem 3rem;
+	}
+}
+
 .portfolio-banner {
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
 @media (max-width: 992px) {
 	.portfolio-banner {
 		padding: 1rem 5rem;
@@ -83,6 +97,7 @@
 .clients-banner {
 	padding: 3rem 6rem 2rem 6rem;
 }
+
 @media (max-width: 768px) {
 	.clients-banner {
 		padding: 30px;
@@ -93,6 +108,7 @@
 	padding: 2rem 6rem 4rem 6rem;
 	background: #fff0e1;
 }
+
 @media (max-width: 768px) {
 	.twitter-holder {
 		padding: 2rem 2rem 2rem 2rem;
@@ -102,15 +118,16 @@
 .banner-wrapper {
 	padding: 3rem 6rem 3rem 6rem;
 }
-@media (max-width: 992px) {
+
+/* @media (max-width: 992px) {
 	.banner-wrapper {
-		padding: 40px;
+		padding: 3rem;
 	}
-}
+} */
 
 @media (max-width: 768px) {
 	.banner-wrapper {
-		padding: 30px;
+		padding: 3rem;
 	}
 }
 
@@ -118,6 +135,7 @@
 	margin: 0 auto;
 	/* padding: 0rem 6rem; */
 }
+
 /* .flex {
 	display: flex;
 } */
@@ -126,6 +144,7 @@
 	background-size: cover;
 	width: 100%;
 }
+
 @media (max-width: 768px) {
 	.portfolio-piece {
 		height: 25vh;
