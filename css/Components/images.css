@@ -1,36 +1,24 @@
-@media (max-width: 768px) {
-	.to-hide-mobile {
-		display: none;
-	}
-}
-/* Below, Platypus subpage */
-/* 3 devices image */
-.devices-plat-3 {
+/* Portfolio Boxes Home Page */
+
+.portfolio-piece {
 	height: 400px;
+	background-size: cover;
+	width: 100%;
 }
+
 @media (max-width: 768px) {
-	.devices-plat-3 {
-		height: 133px;
+	.portfolio-piece {
+		height: 25vh;
 	}
 }
-/* UI cards */
-.platypus-cards {
-	height: 169px;
+
+.company-logos {
+	margin-top: 15px;
+	height: 45px;
 }
-@media (max-width: 768px) {
-	.platypus-cards {
-		height: 50px;
-	}
-}
-/* fitlering pic */
-.devices-filter-plat {
-	height: 325px;
-}
-@media (max-width: 768px) {
-	.devices-filter-plat {
-		height: 148px;
-	}
-}
+
+
+
 /* borsen pics */
 /* Ukraine  */
 .height-305px {
@@ -68,3 +56,33 @@
 		height: 180px;
 	}
 }
+
+/* @media (max-width: 768px) {
+	.to-hide-mobile {
+		display: none;
+	}
+}
+.devices-plat-3 {
+	height: 400px;
+}
+@media (max-width: 768px) {
+	.devices-plat-3 {
+		height: 133px;
+	}
+}
+.platypus-cards {
+	height: 169px;
+}
+@media (max-width: 768px) {
+	.platypus-cards {
+		height: 50px;
+	}
+}
+.devices-filter-plat {
+	height: 325px;
+}
+@media (max-width: 768px) {
+	.devices-filter-plat {
+		height: 148px;
+	}
+} */
