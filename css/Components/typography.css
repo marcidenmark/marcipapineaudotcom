@@ -206,18 +206,25 @@ p {
 	text-align: center;
 }
 
+a:link{
+	text-decoration: none;
+}
+
 li {
+	text-decoration: none;
+	color: #ff4716;
 	display: inline;
 	list-style-type: none;
 	margin-right: 20px;
 }
 
 a.nav {
+	text-decoration: none !important;
 	color: #fc4827;
 	text-decoration: none;
 	font-size: 16px;
 	text-align: right;
-	transition: color 0.3s ease;
+	transition: color 0.9s ease;
 }
 
 a.nav:hover {
@@ -256,7 +263,7 @@ a.website-link:visited:after {
 	left: 0;
 	width: 0%;
 	background: #fc4827;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 a:hover:after,
 a:visited:hover:after {

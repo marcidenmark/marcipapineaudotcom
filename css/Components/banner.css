@@ -139,19 +139,3 @@
 /* .flex {
 	display: flex;
 } */
-.portfolio-piece {
-	height: 50vh;
-	background-size: cover;
-	width: 100%;
-}
-
-@media (max-width: 768px) {
-	.portfolio-piece {
-		height: 25vh;
-	}
-}
-
-.company-logos {
-	margin-top: 15px;
-	height: 45px;
-}
