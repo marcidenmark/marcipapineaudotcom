@@ -125,7 +125,8 @@ p {
 }
 @media (max-width: 768px) {
 	.headlines-in-banner {
-		margin-top: 30px;
+		margin-top: 10px;
+		font-size: 25px;
 	}
 }
 
@@ -134,11 +135,8 @@ p {
 	line-height: 2em;
 	letter-spacing: 1px;
 	font-weight: 600;
-	/* color: #fc4827; */
-	/* color: #61d3c9; */
 	color: #1bc3b5;
 	padding: 0px 0px 15px 0px;
-	/* text-transform: uppercase; */
 }
 @media (max-width: 768px) {
 	.subhead {
