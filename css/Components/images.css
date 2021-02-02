@@ -1,11 +1,9 @@
 /* Portfolio Boxes Home Page */
-
 .portfolio-piece {
 	height: 400px;
 	background-size: cover;
 	width: 100%;
 }
-
 @media (max-width: 768px) {
 	.portfolio-piece {
 		height: 170px;
@@ -41,8 +39,25 @@
 		height: 200px;
 	}
 }
-/* borsen portfolio images */
-	/* will it work for all subpages? */
+.borsen-bubble{
+	height: 692px;
+	background-size: cover;
+}
+@media (max-width: 900px){
+	.borsen-bubble{
+		height: 249px;
+	}
+}
+.borsen-lollipop{
+	height: 455px;
+	background-size: cover;
+}
+@media (max-width: 900px){
+	.borsen-lollipop{
+		height: 168px;
+	}
+}
+
 
 
 /* aktivFoodie */
