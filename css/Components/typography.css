@@ -125,7 +125,7 @@ p {
 }
 @media (max-width: 768px) {
 	.headlines-in-banner {
-		margin-top: 10px;
+		/* margin-top: 10px; */
 		font-size: 25px;
 	}
 }
