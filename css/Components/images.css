@@ -8,15 +8,33 @@
 
 @media (max-width: 768px) {
 	.portfolio-piece {
-		height: 25vh;
+		height: 170px;
 	}
 }
+/* subpages */
+.banner-case {
+	height: 506px;
+	background-size: cover;
+	align-items: center;
+	margin: 0px 167px 25px 67px;
+}
+@media (max-width: 900px) {
+	.banner-case {
+		margin: 10px 0px 00px 0px;
+		height: 200px;
+	}
+}
+.background-size-cover{
+	background-size: cover;
+}
+
+
+
 
 .company-logos {
 	margin-top: 15px;
 	height: 45px;
 }
-
 
 
 /* borsen pics */

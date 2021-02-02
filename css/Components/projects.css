@@ -1,17 +1,4 @@
-.banner-case {
-	height: 55vh;
-	background-size: cover;
-	align-items: center;
-	/* margin: 0px 167px 25px 67px; */
-}
-@media (max-width: 900px) {
-	.banner-case {
-		margin: 10px 0px 30px 0px;
-	}
-}
-.background-size-cover{
-	background-size: cover;
-}
+
 /* below width 70vw is a test */
 .case-text-box {
 	padding: 00px 200px 00px 50px;
@@ -23,7 +10,7 @@
 	}
 }
 .case-text-header {
-	margin: 0px 67px 2px 67px;
+	margin: 0px 67px 2px 0px;
 }
 @media (max-width: 768px) {
 	.case-text-header {
@@ -47,14 +34,12 @@
 	padding: 4rem 4rem;
 	align-items: center;
 }
-
 .proj-pic-b {
 	height: 75vh;
 	/* background-size: cover; */
 	/* padding: 4rem 4rem; */
 	align-items: center;
 }
-
 .proj-lyng-process-1 {
 	height: 600px;
 }
@@ -67,7 +52,6 @@
 .process-pic-middle {
 	margin-left: 20%;
 }
-
 .project-border {
 	border: 0.5px solid #fc4827;
 	/* margin: 20px; */
@@ -86,15 +70,3 @@
 	/* margin: 100px 0px; */
 	color: #fd4927;
 }
-
-/* @media (max-width: 360px) {
-	.project-banner {
-		height: 76vh;
-		padding: 2rem 2rem;
-	}
-} */
-/* .portfolio-banner {
-	background: ;
-	padding: 10px;
-} */
-/* above, that class is already being used */
