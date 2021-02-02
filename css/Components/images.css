@@ -11,12 +11,12 @@
 		height: 170px;
 	}
 }
-/* subpages */
+
 .banner-case {
-	height: 506px;
+	height: 520px;
 	background-size: cover;
-	align-items: center;
-	margin: 0px 167px 25px 67px;
+	/* align-items: center; */
+	/* margin: 0px 167px 25px 0px; */
 }
 @media (max-width: 900px) {
 	.banner-case {
@@ -24,11 +24,67 @@
 		height: 200px;
 	}
 }
-.background-size-cover{
+
+/* subpages */
+/* top banner */
+	/* will this be banner for all subpages? */
+/* */
+.banner-case-borsen {
+	height: 520px;
 	background-size: cover;
+	/* align-items: center; */
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.banner-case-borsen {
+		margin: 10px 0px 00px 0px;
+		height: 200px;
+	}
+}
+/* borsen portfolio images */
+	/* will it work for all subpages? */
+
+
+/* aktivFoodie */
+.banner-aktivFoodie{
+	height: 794px;
+	background-size: cover;
+}
+@media (max-width: 900px) {
+	.banner-aktivFoodie {
+		height: 215px;
+		margin: 10px 0px 00px 0px;
+
+	}
 }
 
 
+
+/* borsen pics old*/
+/* Ukraine  */
+/* .height-305px {
+	height: 305px;
+}
+@media (max-width: 375px) {
+	.height-305px {
+		height: 125px;
+	}
+} */
+/* Renault  */
+/* .height-450px {
+	height: 450px;
+}
+@media (max-width: 375px) {
+	.height-450px {
+		height: 150px;
+	}
+} */
+
+
+/* miscellaneous */
+.background-size-cover{
+	background-size: cover;
+}
 
 
 .company-logos {
@@ -37,25 +93,6 @@
 }
 
 
-/* borsen pics */
-/* Ukraine  */
-.height-305px {
-	height: 305px;
-}
-@media (max-width: 375px) {
-	.height-305px {
-		height: 125px;
-	}
-}
-/* Renault  */
-.height-450px {
-	height: 450px;
-}
-@media (max-width: 375px) {
-	.height-450px {
-		height: 150px;
-	}
-}
 /* Checklist  */
 .height-240px {
 	height: 240px;
