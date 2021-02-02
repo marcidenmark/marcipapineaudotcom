@@ -43,18 +43,18 @@
 	height: 692px;
 	background-size: cover;
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
 	.borsen-bubble{
-		height: 269px;
+		height: 236px;
 	}
 }
 .borsen-lollipop{
 	height: 455px;
 	background-size: cover;
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
 	.borsen-lollipop{
-		height: 196px;
+		height: 158px;
 	}
 }
 
