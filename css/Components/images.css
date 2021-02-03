@@ -57,6 +57,53 @@
 		height: 168px;
 	}
 }
+.borsen-goodInfo {
+	height: 520px;
+	background-size: cover;
+	height: 548px;
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.borsen-goodInfo {
+		margin: 10px 0px 00px 0px;
+		height: 203px;
+	}
+}
+.borsen-goodInfo-2 {
+	height: 548px;
+	background-size: cover;
+	height: 548px;
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.borsen-goodInfo-2 {
+		margin: 10px 0px 00px 0px;
+		height: 203px;
+	}
+}
+.borsen-renault {
+	height: 412px;
+	background-size: cover;
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.borsen-renault {
+		margin: 10px 0px 00px 0px;
+		height: 150px;
+	}
+}
+.borsen-deltaG {
+	height: 548px;
+	background-size: cover;
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.borsen-deltaG {
+		margin: 10px 0px 00px 0px;
+		height: 150px;
+	}
+}
+
 
 /* aktivFoodie */
 .banner-aktivFoodie{
