@@ -31,9 +31,9 @@
 	height: 520px;
 	background-size: cover;
 	/* align-items: center; */
-	/* margin: 0px 167px 25px 0px; */
+	margin: 0px 167px 25px 67px;
 }
-@media (max-width: 900px) {
+@media (max-width: 960px) {
 	.banner-case-borsen {
 		margin: 10px 0px 00px 0px;
 		height: 200px;
@@ -43,22 +43,20 @@
 	height: 692px;
 	background-size: cover;
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
 	.borsen-bubble{
-		height: 269px;
+		height: 236px;
 	}
 }
 .borsen-lollipop{
 	height: 455px;
 	background-size: cover;
 }
-@media (max-width: 900px){
+@media (max-width: 960px){
 	.borsen-lollipop{
-		height: 196px;
+		height: 158px;
 	}
 }
-
-
 
 /* aktivFoodie */
 .banner-aktivFoodie{
@@ -73,6 +71,22 @@
 	}
 }
 
+/* Railsgirls */
+.banner-railsGirls {
+	height: 804px;
+	background-size: cover;
+	/* align-items: center; */
+	/* margin: 0px 167px 25px 0px; */
+}
+@media (max-width: 900px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 144px;
+	}
+/* }
+.video{
+	height: 144px !important;
+} */
 
 
 /* borsen pics old*/
