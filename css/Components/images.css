@@ -32,6 +32,7 @@
 	background-size: cover;
 	/* align-items: center; */
 	margin: 0px 167px 25px 67px;
+	background-position:  center center;
 }
 @media (max-width: 960px) {
 	.banner-case-borsen {
@@ -54,8 +55,6 @@
 		height: 51vh;
 	}
 }
-
-
 .borsen-lollipop{
 	height: 455px;
 	background-size: cover;
@@ -70,6 +69,7 @@
 	height: 520px;
 	background-size: cover;
 	height: 548px;
+	background-position:  center center;
 	/* margin: 0px 167px 25px 0px; */
 }
 @media (max-width: 900px) {
@@ -82,6 +82,7 @@
 	height: 548px;
 	background-size: cover;
 	height: 548px;
+	background-position:  center center;
 	/* margin: 0px 167px 25px 0px; */
 }
 @media (max-width: 900px) {
@@ -93,6 +94,7 @@
 .borsen-renault {
 	height: 412px;
 	background-size: cover;
+	background-position:  center center;
 	/* margin: 0px 167px 25px 0px; */
 }
 @media (max-width: 900px) {
@@ -113,11 +115,11 @@
 	}
 }
 
-
 /* aktivFoodie */
 .banner-aktivFoodie{
 	height: 794px;
 	background-size: cover;
+	background-position:  center center;
 }
 @media (max-width: 900px) {
 	.banner-aktivFoodie {
@@ -127,50 +129,51 @@
 	}
 }
 
-/* Railsgirls */
+/* Railsgirls Page */
 .banner-railsGirls {
 	height: 747px;
 	background-size: cover;
-	/* align-items: center; */
-	/* margin: 0px 167px 25px 0px; */
+	background-position:  center center;
 }
-@media (max-width: 900px) {
+@media (max-width: 375px) {
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
 		height: 144px;
 	}
-/* }
-.video{
-	height: 144px !important;
-} */
-
-
-/* borsen pics old*/
-/* Ukraine  */
-/* .height-305px {
-	height: 305px;
 }
-@media (max-width: 375px) {
-	.height-305px {
-		height: 125px;
+@media (min-width: 481px) and (max-width: 568px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 546px;
 	}
-} */
-/* Renault  */
-/* .height-450px {
-	height: 450px;
 }
-@media (max-width: 375px) {
-	.height-450px {
-		height: 150px;
+
+.railsG-UIkit {
+	height: 431px;
+	background-size: cover;
+	background-position:  center center;
+}
+@media (max-width: 480px){
+	.railsG-UIkit{
+		height: 20vh;
 	}
-} */
+}
+.railsG-connections {
+	height: 464px;
+	background-size: cover;
+	background-position:  center center;
+}
+@media (max-width: 480px){
+	.railsG-connections{
+		height: 20vh;
+	}
+}
 
 
 /* miscellaneous */
 .background-size-cover{
 	background-size: cover;
 }
-
 
 .company-logos {
 	margin-top: 15px;
@@ -196,33 +199,3 @@
 		height: 180px;
 	}
 }
-
-/* @media (max-width: 768px) {
-	.to-hide-mobile {
-		display: none;
-	}
-}
-.devices-plat-3 {
-	height: 400px;
-}
-@media (max-width: 768px) {
-	.devices-plat-3 {
-		height: 133px;
-	}
-}
-.platypus-cards {
-	height: 169px;
-}
-@media (max-width: 768px) {
-	.platypus-cards {
-		height: 50px;
-	}
-}
-.devices-filter-plat {
-	height: 325px;
-}
-@media (max-width: 768px) {
-	.devices-filter-plat {
-		height: 148px;
-	}
-} */
