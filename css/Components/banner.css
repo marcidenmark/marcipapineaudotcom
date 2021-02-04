@@ -139,3 +139,9 @@
 /* .flex {
 	display: flex;
 } */
+
+
+.company-logos {
+    margin-top: 15px;
+    height: 45px;
+}
