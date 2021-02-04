@@ -42,10 +42,16 @@
 .borsen-bubble{
 	height: 692px;
 	background-size: cover;
+	background-position:  center center;
 }
-@media (max-width: 960px){
+@media (max-width: 480px){
 	.borsen-bubble{
 		height: 31vh;
+	}
+}
+@media (min-width: 481px) and (max-width: 1024px){
+	.borsen-bubble{
+		height: 51vh;
 	}
 }
 .borsen-lollipop{
