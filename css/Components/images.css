@@ -54,13 +54,16 @@
 		height: 51vh;
 	}
 }
+
+
 .borsen-lollipop{
 	height: 455px;
 	background-size: cover;
+	background-position:  center center;
 }
 @media (max-width: 960px){
 	.borsen-lollipop{
-		height: 168px;
+		height: 198px;
 	}
 }
 .borsen-goodInfo {
