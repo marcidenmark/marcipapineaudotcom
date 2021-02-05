@@ -135,18 +135,18 @@
 	background-size: cover;
 	background-position:  center center;
 }
-@media (max-width: 375px) {
+@media (max-width: 576px) {
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
 		height: 144px;
 	}
 }
-@media (min-width: 481px) and (max-width: 568px) {
+/* @media (min-width: 547px){
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
 		height: 546px;
 	}
-}
+} */
 
 .railsG-UIkit {
 	height: 431px;
