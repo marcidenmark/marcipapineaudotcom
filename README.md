@@ -1,3 +1,3 @@
 ### Web design
-- a responsive grid
-more info tktkt
+marciPapineau.com
+html + css website

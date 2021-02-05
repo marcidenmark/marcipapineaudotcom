@@ -115,20 +115,6 @@
 	}
 }
 
-/* aktivFoodie */
-.banner-aktivFoodie{
-	height: 794px;
-	background-size: cover;
-	background-position:  center center;
-}
-@media (max-width: 900px) {
-	.banner-aktivFoodie {
-		height: 215px;
-		margin: 10px 0px 00px 0px;
-
-	}
-}
-
 /* Railsgirls Page */
 .banner-railsGirls {
 	height: 747px;
@@ -181,6 +167,41 @@
 	}
 }
 
+/* aktivFoodie */
+.banner-aktivFoodie{
+	height: 794px;
+	background-size: cover;
+	background-position:  center center;
+}
+@media (max-width: 900px) {
+	.banner-aktivFoodie {
+		height: 215px;
+		margin: 10px 0px 00px 0px;
+
+	}
+}
+.aktivFoodie-rows {
+	height: 907px;
+	background-size: cover;
+	background-position:  center center;
+}
+@media (max-width: 576px) {
+	.aktivFoodie-rows {
+		margin: 10px 0px 00px 0px;
+		height: 329px;
+	}
+ }
+ .aktivFoodie-steps {
+	height: 541px;
+	background-size: cover;
+	background-position:  center center;
+}
+@media (max-width: 576px) {
+	.aktivFoodie-steps {
+		margin: 10px 0px 00px 0px;
+		height: 204px;
+	}
+ }
 
 
 
