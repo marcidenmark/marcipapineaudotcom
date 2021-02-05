@@ -138,15 +138,16 @@
 @media (max-width: 576px) {
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
-		height: 144px;
+		height: 159px;
 	}
-}
-/* @media (min-width: 547px){
+ }
+
+/* @media (max-width: 900px){
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
-		height: 546px;
+		height: 458px;
 	}
-} */
+}  */
 
 .railsG-UIkit {
 	height: 431px;
@@ -168,6 +169,20 @@
 		height: 20vh;
 	}
 }
+.railsG-color {
+	height: 192px;
+	background-size: cover;
+	/* align-items: center; */
+	background-position:  center center;
+}
+@media (max-width: 960px) {
+	.railsG-color {
+		height: 77px;
+	}
+}
+
+
+
 
 
 /* miscellaneous */
