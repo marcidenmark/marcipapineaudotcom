@@ -344,6 +344,46 @@
 		height: 258px;
 	}
 }
+/* lyngaardmedia */
+.lyndgaard {
+	height: 521px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.lyndgaard {
+		margin: 10px 0px 00px 0px;
+		height: 172px;
+	}
+}
+
+.lynd-new-collage {
+	height: 500px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.lynd-new-collage {
+		margin: 10px 0px 00px 0px;
+		height: 189px;
+	}
+}
+.lyndgaard-1{
+	height: 1100px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+	.lyndgaard-1{
+		margin: 10px 0px 00px 0px;
+		height: 552px;
+	}
+}
+
 
 
 
