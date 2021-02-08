@@ -115,6 +115,11 @@
 .spacing-35px {
 	height: 35px;
 }
+@media (max-width: 768px) {
+	.spacing-35px {
+		height: 20px;
+	}
+}
 .spacing-50px {
 	height: 50px;
 }
