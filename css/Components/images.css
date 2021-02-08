@@ -244,7 +244,6 @@
 		height: 500px;
 	}
 }
-
 .cphux-2 {
 	height: 448px;
 	background-size: cover;
@@ -258,7 +257,6 @@
 		height: 164px;
 	}
 }
-
 .banner-css {
 	height: 400px;
 	background-size: cover;
@@ -272,6 +270,121 @@
 		height: 138px;
 	}
 }
+
+/* editorial */
+.mag-new {
+	height: 245px;
+	background-size: cover;
+}
+
+@media (max-width: 900px) {
+	.mag-new {
+		margin: 10px 0px 00px 0px;
+		height: 94px;
+	}
+}
+
+.mag-money {
+	height: 456px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.mag-money {
+		margin: 10px 0px 00px 0px;
+		height: 168px;
+	}
+}
+.mag-ing {
+	height: 354px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.mag-ing {
+		margin: 10px 0px 00px 0px;
+		height: 125px;
+	}
+}
+.mag-ym {
+	height: 636px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.mag-ym {
+		margin: 10px 0px 00px 0px;
+		height: 238px;
+	}
+}
+.mag-profil {
+	height: 714px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.mag-profil {
+		margin: 10px 0px 00px 0px;
+		height: 258px;
+	}
+}
+.mag-penge {
+	height: 714px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.mag-penge {
+		margin: 10px 0px 00px 0px;
+		height: 258px;
+	}
+}
+/* lyngaardmedia */
+.lyndgaard {
+	height: 521px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.lyndgaard {
+		margin: 10px 0px 00px 0px;
+		height: 172px;
+	}
+}
+
+.lynd-new-collage {
+	height: 500px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 900px) {
+	.lynd-new-collage {
+		margin: 10px 0px 00px 0px;
+		height: 189px;
+	}
+}
+.lyndgaard-1{
+	height: 1100px;
+	background-size: cover;
+	background-position: center center;
+	margin-top: 50px;
+}
+
+@media (max-width: 900px) {
+	.lyndgaard-1{
+		margin: 10px 0px 00px 0px;
+		height: 552px;
+	}
+}
+
+
 
 
 
