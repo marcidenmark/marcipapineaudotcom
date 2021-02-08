@@ -4,6 +4,7 @@
 	background-size: cover;
 	width: 100%;
 }
+
 @media (max-width: 768px) {
 	.portfolio-piece {
 		height: 170px;
@@ -16,6 +17,7 @@
 	/* align-items: center; */
 	/* margin: 0px 167px 25px 0px; */
 }
+
 @media (max-width: 900px) {
 	.banner-case {
 		margin: 10px 0px 00px 0px;
@@ -25,89 +27,103 @@
 
 /* subpages */
 /* top banner */
-	/* will this be banner for all subpages? */
+/* will this be banner for all subpages? */
 /* */
 .banner-case-borsen {
 	height: 520px;
 	background-size: cover;
 	/* align-items: center; */
 	margin: 0px 167px 25px 67px;
-	background-position:  center center;
+	background-position: center center;
 }
+
 @media (max-width: 960px) {
 	.banner-case-borsen {
 		margin: 10px 0px 00px 0px;
 		height: 200px;
 	}
 }
-.borsen-bubble{
+
+.borsen-bubble {
 	height: 692px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
-@media (max-width: 480px){
-	.borsen-bubble{
+
+@media (max-width: 480px) {
+	.borsen-bubble {
 		height: 31vh;
 	}
 }
-@media (min-width: 481px) and (max-width: 1024px){
-	.borsen-bubble{
+
+@media (min-width: 481px) and (max-width: 1024px) {
+	.borsen-bubble {
 		height: 51vh;
 	}
 }
-.borsen-lollipop{
+
+.borsen-lollipop {
 	height: 455px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
-@media (max-width: 960px){
-	.borsen-lollipop{
+
+@media (max-width: 960px) {
+	.borsen-lollipop {
 		height: 198px;
 	}
 }
+
 .borsen-goodInfo {
 	height: 520px;
 	background-size: cover;
 	height: 548px;
-	background-position:  center center;
+	background-position: center center;
 	/* margin: 0px 167px 25px 0px; */
 }
+
 @media (max-width: 900px) {
 	.borsen-goodInfo {
 		margin: 10px 0px 00px 0px;
 		height: 203px;
 	}
 }
+
 .borsen-goodInfo-2 {
 	height: 548px;
 	background-size: cover;
 	height: 548px;
-	background-position:  center center;
+	background-position: center center;
 	/* margin: 0px 167px 25px 0px; */
 }
+
 @media (max-width: 900px) {
 	.borsen-goodInfo-2 {
 		margin: 10px 0px 00px 0px;
 		height: 203px;
 	}
 }
+
 .borsen-renault {
 	height: 412px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 	/* margin: 0px 167px 25px 0px; */
 }
+
 @media (max-width: 900px) {
 	.borsen-renault {
 		margin: 10px 0px 00px 0px;
 		height: 150px;
 	}
 }
+
 .borsen-deltaG {
 	height: 548px;
 	background-size: cover;
 	/* margin: 0px 167px 25px 0px; */
 }
+
 @media (max-width: 900px) {
 	.borsen-deltaG {
 		margin: 10px 0px 00px 0px;
@@ -119,39 +135,41 @@
 .banner-railsGirls {
 	height: 747px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
+
 @media (max-width: 576px) {
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
 		height: 159px;
 	}
- }
-
+}
 /* @media (max-width: 900px){
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
 		height: 458px;
 	}
 }  */
-
 .railsG-UIkit {
 	height: 431px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
-@media (max-width: 480px){
-	.railsG-UIkit{
+
+@media (max-width: 480px) {
+	.railsG-UIkit {
 		height: 20vh;
 	}
 }
+
 .railsG-connections {
 	height: 464px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
-@media (max-width: 480px){
-	.railsG-connections{
+
+@media (max-width: 480px) {
+	.railsG-connections {
 		height: 20vh;
 	}
 }
@@ -159,7 +177,7 @@
 	height: 192px;
 	background-size: cover;
 	/* align-items: center; */
-	background-position:  center center;
+	background-position: center center;
 }
 @media (max-width: 960px) {
 	.railsG-color {
@@ -168,11 +186,12 @@
 }
 
 /* aktivFoodie */
-.banner-aktivFoodie{
+.banner-aktivFoodie {
 	height: 794px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
+
 @media (max-width: 900px) {
 	.banner-aktivFoodie {
 		height: 215px;
@@ -183,31 +202,81 @@
 .aktivFoodie-rows {
 	height: 907px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
+
 @media (max-width: 576px) {
 	.aktivFoodie-rows {
 		margin: 10px 0px 00px 0px;
 		height: 329px;
 	}
- }
- .aktivFoodie-steps {
+}
+.aktivFoodie-steps {
 	height: 541px;
 	background-size: cover;
-	background-position:  center center;
+	background-position: center center;
 }
 @media (max-width: 576px) {
 	.aktivFoodie-steps {
 		margin: 10px 0px 00px 0px;
 		height: 204px;
 	}
- }
+}
 
+/* cphux */
+.cphux-1{
+	background-size: cover;
+	margin: 0px 167px 25px 67px;
+	height: 612px;
+}
+@media (max-width: 576px) {
+	.cphux-1 {
+		margin: 10px 0px 00px 0px;
+		height: 147px;
+	}
+}
+.cphux-a3{
+	height: 836px;
+}
+@media (max-width: 576px) {
+	.cphux-a3 {
+		margin: 10px 0px 00px 0px;
+		height: 500px;
+	}
+}
+
+.cphux-2 {
+	height: 448px;
+	background-size: cover;
+	/* align-items: center; */
+	/* margin: 0px 167px 25px 0px; */
+}
+
+@media (max-width: 576px) {
+	.cphux-2 {
+		margin: 10px 0px 00px 0px;
+		height: 164px;
+	}
+}
+
+.banner-css {
+	height: 400px;
+	background-size: cover;
+	/* align-items: center; */
+	/* margin: 0px 167px 25px 0px; */
+}
+
+@media (max-width: 576px) {
+	.banner-css {
+		margin: 10px 0px 00px 0px;
+		height: 138px;
+	}
+}
 
 
 
 /* miscellaneous */
-.background-size-cover{
+.background-size-cover {
 	background-size: cover;
 }
 
@@ -221,15 +290,18 @@
 .height-240px {
 	height: 240px;
 }
+
 @media (max-width: 375px) {
 	.height-240px {
 		height: 100px;
 	}
 }
+
 /* spread  */
 .height-600px {
 	height: 600px;
 }
+
 @media (max-width: 375px) {
 	.height-600px {
 		height: 180px;

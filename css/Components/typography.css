@@ -138,12 +138,11 @@ p {
 	color: #1bc3b5;
 	padding: 0px 0px 15px 0px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.subhead {
 		padding: 0px;
 	}
-}
-/* #9cb3b1 #61D3C9 #899392  */
+} */
 
 .proj-name {
 	font-size: 15px;
