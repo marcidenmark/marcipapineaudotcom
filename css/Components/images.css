@@ -211,6 +211,20 @@
 		height: 329px;
 	}
 }
+
+.aktivFoodie-new {
+	height: 425px;
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (max-width: 794px) {
+	.aktivFoodie-new {
+		margin: 10px 0px 00px 0px;
+		height: 161px;
+	}
+}
+
 .aktivFoodie-steps {
 	height: 541px;
 	background-size: cover;
