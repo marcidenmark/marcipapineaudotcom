@@ -14,7 +14,7 @@
 .banner-case {
 	height: 520px;
 	background-size: cover;
-	/* align-items: center; */
+	/* align-items: left; */
 	/* margin: 0px 167px 25px 0px; */
 }
 
@@ -32,9 +32,9 @@
 .banner-case-borsen {
 	height: 520px;
 	background-size: cover;
-	/* align-items: center; */
+	/* align-items: left; */
 	margin: 0px 167px 25px 67px;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 960px) {
@@ -47,7 +47,7 @@
 .borsen-bubble {
 	height: 692px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 480px) {
@@ -65,7 +65,7 @@
 .borsen-lollipop {
 	height: 455px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 960px) {
@@ -78,7 +78,7 @@
 	height: 520px;
 	background-size: cover;
 	height: 548px;
-	background-position: center center;
+	background-position: top left;
 	/* margin: 0px 167px 25px 0px; */
 }
 
@@ -93,7 +93,7 @@
 	height: 548px;
 	background-size: cover;
 	height: 548px;
-	background-position: center center;
+	background-position: top left;
 	/* margin: 0px 167px 25px 0px; */
 }
 
@@ -105,16 +105,16 @@
 }
 
 .borsen-renault {
-	height: 412px;
+	height: 164px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 	/* margin: 0px 167px 25px 0px; */
 }
 
 @media (max-width: 900px) {
 	.borsen-renault {
 		margin: 10px 0px 00px 0px;
-		height: 150px;
+		height: 216px;
 	}
 }
 
@@ -135,7 +135,7 @@
 .banner-railsGirls {
 	height: 767px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 576px) {
@@ -153,7 +153,7 @@
 .railsG-UIkit {
 	height: 431px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 480px) {
@@ -165,7 +165,7 @@
 .railsG-connections {
 	height: 464px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 480px) {
@@ -176,8 +176,8 @@
 .railsG-color {
 	height: 192px;
 	background-size: cover;
-	/* align-items: center; */
-	background-position: center center;
+	/* align-items: left; */
+	background-position: top left;
 }
 @media (max-width: 960px) {
 	.railsG-color {
@@ -189,7 +189,7 @@
 .banner-aktivFoodie {
 	height: 794px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -202,7 +202,7 @@
 .aktivFoodie-rows {
 	height: 907px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 576px) {
@@ -215,7 +215,7 @@
 .aktivFoodie-new {
 	height: 425px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 794px) {
@@ -228,7 +228,7 @@
 .aktivFoodie-steps {
 	height: 541px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 @media (max-width: 576px) {
 	.aktivFoodie-steps {
@@ -268,7 +268,7 @@
 .cphux-2 {
 	height: 448px;
 	background-size: cover;
-	/* align-items: center; */
+	/* align-items: left; */
 	/* margin: 0px 167px 25px 0px; */
 }
 
@@ -281,7 +281,7 @@
 .banner-css {
 	height: 400px;
 	background-size: cover;
-	/* align-items: center; */
+	/* align-items: left; */
 	/* margin: 0px 167px 25px 0px; */
 }
 
@@ -308,7 +308,7 @@
 .mag-money {
 	height: 456px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -320,7 +320,7 @@
 .mag-ing {
 	height: 354px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -332,7 +332,7 @@
 .mag-ym {
 	height: 636px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -344,7 +344,7 @@
 .mag-profil {
 	height: 714px;
 	background-size: cover;
-	background-position: top center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -356,7 +356,7 @@
 .mag-penge {
 	height: 714px;
 	background-size: cover;
-	background-position: top center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -382,7 +382,7 @@
 .lynd-new-collage {
 	height: 500px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 }
 
 @media (max-width: 900px) {
@@ -394,7 +394,7 @@
 .lyndgaard-1{
 	height: 1100px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top left;
 	margin-top: 50px;
 }
 
@@ -404,9 +404,6 @@
 		height: 552px;
 	}
 }
-
-
-
 
 
 /* miscellaneous */
