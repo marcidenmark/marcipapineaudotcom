@@ -394,7 +394,7 @@
 .lyndgaard-1{
 	height: 1100px;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	margin-top: 50px;
 }
 
@@ -404,9 +404,6 @@
 		height: 552px;
 	}
 }
-
-
-
 
 
 /* miscellaneous */
