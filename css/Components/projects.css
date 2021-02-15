@@ -60,19 +60,23 @@
 	font-size: 14px;
 	padding-right: 32px;
 	width: 191px;
-	margin: 197px 0px;
+	margin: 197px 30px;
 	color: #fd4927;
 }
-@media (max-width: 576px) {
+@media (max-width: 1024px) {
 	.project-caption {
 		padding-right: 0px;
 		width: auto;
 		margin: 20px 0px 0px 0px;
 	}
 }
-
-
-
+@media (max-width: 800px) {
+	.project-caption {
+		padding-right: 0px;
+		width: auto;
+		margin: 20px 0px 0px 0px;
+	}
+}
 
 .project-caption-2 {
 	font-size: 14px;
