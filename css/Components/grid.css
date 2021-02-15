@@ -79,13 +79,14 @@
 } */
 .two-col-grid-container-b {
 	display: grid;
-	grid-template-columns: auto 1fr;
+	grid-template-columns: 1fr auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 	.two-col-grid-container-b {
 		grid-template-columns: 1fr;
 	}
 }
+
 
 .portfolio-grid-container {
 	display: grid;
