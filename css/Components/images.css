@@ -105,7 +105,7 @@
 }
 
 .borsen-renault {
-	height: 164px;
+	height: 415px;
 	background-size: cover;
 	background-position: top left;
 	/* margin: 0px 167px 25px 0px; */
@@ -114,7 +114,7 @@
 @media (max-width: 900px) {
 	.borsen-renault {
 		margin: 10px 0px 00px 0px;
-		height: 216px;
+		height: 153px;
 	}
 }
 
@@ -133,11 +133,22 @@
 
 /* Railsgirls Page */
 .banner-railsGirls {
-	height: 767px;
+	height: 801px;
 	background-size: cover;
-	background-position: top left;
+	background-position: center center;
 }
-
+@media (max-width: 1024px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 528px;
+	}
+}
+@media (max-width: 976px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 423px;
+	}
+}
 @media (max-width: 576px) {
 	.banner-railsGirls {
 		margin: 10px 0px 00px 0px;
@@ -240,20 +251,29 @@
 /* cphux */
 .cphux-1{
 	background-size: cover;
-	margin: 0px 167px 25px 67px;
-	height: 612px;
+	margin: 0px 167px 25px 0px;
+	height: 733px;
+	margin: 0 auto;
 }
-
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
 	.cphux-1 {
 		margin: 10px 0px 00px 0px;
-		height: 456px;
+		height: 512px;
+		background-position: center center;
+	}
+}
+
+@media (max-width: 898px) {
+	.cphux-1 {
+		margin: 10px 0px 00px 0px;
+		height: 402px;
+		background-position: center center;
 	}
 }
 @media (max-width: 576px) {
 	.cphux-1 {
 		margin: 10px 0px 00px 0px;
-		height: 18vh;
+		height: 19vh;
 	}
 }
 .cphux-a3{
@@ -371,11 +391,23 @@
 	background-size: cover;
 	background-position: top left;
 }
-
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 	.lyndgaard {
 		margin: 10px 0px 00px 0px;
-		height: 252px;
+		height: 602px;
+	}
+}
+
+@media (max-width: 768px) {
+	.lyndgaard {
+		margin: 10px 0px 00px 0px;
+		height: 428px;
+	}
+}
+@media (max-width: 400px) {
+	.lyndgaard {
+		margin: 10px 0px 00px 0px;
+		height: 171px;
 	}
 }
 
