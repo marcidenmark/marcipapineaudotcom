@@ -222,13 +222,17 @@
 		margin: 10px 0px 00px 0px;
 	}
 }
-
 .aktivFoodie-rows {
 	height: 907px;
 	background-size: cover;
 	background-position: top left;
 }
-
+@media (max-width: 768px) {
+	.aktivFoodie-rows {
+		margin: 10px 0px 00px 0px;
+		height: 802px;
+	}
+}
 @media (max-width: 576px) {
 	.aktivFoodie-rows {
 		margin: 10px 0px 00px 0px;
@@ -241,8 +245,13 @@
 	background-size: cover;
 	background-position: top left;
 }
-
 @media (max-width: 794px) {
+	.aktivFoodie-new {
+		margin: 10px 0px 00px 0px;
+		height: 386px;
+	}
+}
+@media (max-width: 375px) {
 	.aktivFoodie-new {
 		margin: 10px 0px 00px 0px;
 		height: 161px;
@@ -289,6 +298,8 @@
 		height: 19vh;
 	}
 }
+
+
 .cphux-a3{
 	height: 836px;
 }
@@ -298,19 +309,39 @@
 		height: 500px;
 	}
 }
+
+
 .cphux-2 {
-	height: 448px;
+	height: 364px;
 	background-size: cover;
 	/* align-items: left; */
 	/* margin: 0px 167px 25px 0px; */
 }
 
+@media (max-width: 1024px) {
+	.cphux-2 {
+		margin: 10px 0px 00px 0px;
+		height: 336px;
+	}
+}
+
+@media (max-width: 768px) {
+	.cphux-2 {
+		margin: 10px 0px 00px 0px;
+		height: 336px;
+	}
+}
+
 @media (max-width: 576px) {
 	.cphux-2 {
 		margin: 10px 0px 00px 0px;
-		height: 164px;
+		height: 135px;
 	}
 }
+
+
+
+
 .banner-css {
 	height: 400px;
 	background-size: cover;
@@ -416,8 +447,36 @@
 	}
 }
 /* lyngaardmedia */
+/* new css top banner */
+
+.lyndgaard-banner {
+	height: 797px;
+	background-size: cover;
+	background-position: top left;
+}
+@media (max-width: 1024px) {
+	.lyndgaard-banner {
+		margin: 10px 0px 00px 0px;
+		height: 497px;
+	}
+}
+@media (max-width: 768px) {
+	.lyndgaard-banner {
+		margin: 10px 0px 00px 0px;
+		height: 428px;
+	}
+}
+@media (max-width: 400px) {
+	.lyndgaard-banner {
+		margin: 10px 0px 00px 0px;
+		height: 171px;
+	}
+}
+
+
+/* below is 3image collage */
 .lyndgaard {
-	height: 801px;
+	height: 492px;
 	background-size: cover;
 	background-position: top left;
 }
@@ -439,6 +498,8 @@
 		height: 171px;
 	}
 }
+
+
 
 .lynd-new-collage {
 	height: 500px;
