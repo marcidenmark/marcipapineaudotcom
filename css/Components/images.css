@@ -410,7 +410,7 @@
 @media (max-width: 375px) {
 	.mag-money {
 		margin: 10px 0px 00px 0px;
-		height: 167px;
+		height: 167px !important;
 	}
 }
 
@@ -464,7 +464,7 @@
 @media (max-width: 375px) {
 	.mag-ym {
 		margin: 10px 0px 00px 0px;
-		height: 235px;
+		height: 235px !important;
 	}
 }
 
