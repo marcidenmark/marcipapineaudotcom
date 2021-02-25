@@ -26,6 +26,7 @@ h2 {
 h3 {
 	font-size: 28px;
 	margin-bottom: 0px;
+	letter-spacing: .2px;
 }
 @media (max-width: 812px) {
 	h3 {
