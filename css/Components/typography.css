@@ -153,7 +153,7 @@ p {
 } */
 .about-text {
 	font-size: 21px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	margin: 40px;
 	font-weight: 400;
 	color: #fd4927;
