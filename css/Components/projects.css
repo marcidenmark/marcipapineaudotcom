@@ -1,7 +1,7 @@
 
 /* below width 70vw is a test */
 .case-text-box {
-	padding: 00px 200px 00px 50px;
+	padding: 00px 200px 5px 50px;
 	/* width: 70vw; */
 }
 @media (max-width: 900px) {

@@ -115,6 +115,9 @@
 .spacing-35px {
 	height: 35px;
 }
+.spacing-40px {
+	height: 40px;
+}
 @media (max-width: 768px) {
 	.spacing-35px {
 		height: 20px;
