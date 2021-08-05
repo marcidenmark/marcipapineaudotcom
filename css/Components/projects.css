@@ -9,6 +9,11 @@
 		padding: 0px 30px 0px 30px;
 	}
 }
+.case-text-box-uikit {
+	padding: 00px 150px 5px 150px;
+	/* width: 70vw; */
+}
+
 .case-text-header {
 	margin: 0px 67px 2px 67px;
 }
