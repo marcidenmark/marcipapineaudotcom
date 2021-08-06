@@ -78,6 +78,13 @@
 	margin: 0 auto;
 }
 
+.portfolio-banner-UI-kt-railsG {
+	/* max-width: 1000px; */
+	/* margin: 0 auto; */
+	margin-top: -50px;
+
+}
+
 @media (max-width: 992px) {
 	.portfolio-banner {
 		padding: 1rem 5rem;
