@@ -25,6 +25,34 @@
 	}
 }
 
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+/* images UI kit railsGirls */
+.banner-case-borsen {
+	height: 520px;
+	background-size: cover;
+	/* align-items: left; */
+	margin: 0px 167px 25px 67px;
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.banner-case-borsen {
+		margin: 10px 0px 00px 0px;
+		height: 200px;
+	}
+}
+
+/* ------------------------------- */
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
 /* subpages */
 /* top banner */
 /* will this be banner for all subpages? */
@@ -172,6 +200,84 @@
 		height: 20vh;
 	}
 }
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+/* images UI kit railsGirls */
+.rails-g-typography {
+	height: 803px;
+	background-size: cover;
+	/* margin: 0px 167px 25px 67px; */
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.rails-g-typography {
+		height: 220px;
+	}
+}
+
+.rails-g-colors {
+	height: 864px;
+	background-size: cover;
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.rails-g-colors {
+		height: 239px;
+		margin-top: 40px;
+	}
+}
+
+.rails-g-buttons {
+	height: 167px;
+	background-size: cover;
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.rails-g-buttons {
+		height: 53px;
+		margin-top: 40px;
+	}
+}
+
+.rails-g-assets {
+	height: 774px;
+	background-size: cover;
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.rails-g-assets {
+		height: 220px;
+		margin-top: 40px;
+	}
+}
+
+.rails-g-cards {
+	height: 374px;
+	background-size: cover;
+	background-position: top left;
+}
+
+@media (max-width: 960px) {
+	.rails-g-cards {
+		height: 285px;
+		margin-top: 40px;
+	}
+}
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
 
 .railsG-connections {
 	height: 464px;
