@@ -167,11 +167,11 @@
 	/* padding: 3rem 6rem 3rem 6rem; */
 	height: 800;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	.sample-box-2 {
-		/* padding: 30px; */
+		padding: 30px;
 	}
-}
+} */
 
 .sample-box-b-2 {
 	padding: 2rem;
