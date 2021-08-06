@@ -1,18 +1,22 @@
 
-/* below width 70vw is a test */
 .case-text-box {
 	padding: 00px 200px 5px 50px;
-	/* width: 70vw; */
 }
 @media (max-width: 900px) {
 	.case-text-box {
 		padding: 0px 30px 0px 30px;
 	}
 }
+
 .case-text-box-uikit {
 	padding: 1px 150px 5px 150px;
-	/* width: 70vw; */
 }
+@media (max-width: 900px) {
+	.case-text-box-uikit {
+		padding: 0px 30px 0px 30px;
+	}
+}
+
 
 .case-text-header {
 	margin: 0px 67px 2px 67px;
