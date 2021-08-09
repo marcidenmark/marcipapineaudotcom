@@ -223,7 +223,7 @@
 
 @media (max-width: 375px) {
 	.rails-g-typography {
-		height: 220px;
+		height: 220px !important;
 	}
 }
 
