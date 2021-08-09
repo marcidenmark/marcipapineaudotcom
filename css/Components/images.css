@@ -224,7 +224,7 @@
 
 @media (max-width: 576px) {
 	.rails-g-typography {
-		height: 220px !important;
+		height: 239px !important;
 	}
 }
 /* ----------------------------- */
@@ -242,27 +242,6 @@
 } */
 /* ----------------------------- */
 
-/* .aktivFoodie-new {
-	height: 425px;
-	background-size: cover;
-	background-position: top left;
-}
-@media (max-width: 794px) {
-	.aktivFoodie-new {
-		margin: 10px 0px 00px 0px;
-		height: 386px;
-	}
-}
-@media (max-width: 375px) {
-	.aktivFoodie-new {
-		margin: 10px 0px 00px 0px;
-		height: 161px;
-	}
-} */
-
-
-
-
 
 .rails-g-colors {
 	height: 864px;
@@ -270,12 +249,19 @@
 	background-position: top left;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 976px) {
+	.rails-g-colors {
+		height: 535px;
+		margin-top: 40px;
+	}
+}
+@media (max-width: 576px) {
 	.rails-g-colors {
 		height: 245px;
 		margin-top: 40px;
 	}
 }
+
 
 .rails-g-buttons {
 	height: 167px;
