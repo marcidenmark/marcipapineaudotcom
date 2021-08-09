@@ -11,6 +11,7 @@
 	}
 }
 
+
 .banner-case {
 	height: 520px;
 	background-size: cover;
@@ -215,17 +216,31 @@
 	background-position: top left;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 976px) {
 	.rails-g-typography {
 		height: 526px;
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
 	.rails-g-typography {
 		height: 220px !important;
 	}
 }
+/* ----------------------------- */
+/* @media (max-width: 976px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 423px;
+	}
+}
+@media (max-width: 576px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 159px;
+	}
+} */
+/* ----------------------------- */
 
 /* .aktivFoodie-new {
 	height: 425px;
@@ -249,12 +264,6 @@
 
 
 
-
-
-
-
-
-
 .rails-g-colors {
 	height: 864px;
 	background-size: cover;
@@ -263,7 +272,7 @@
 
 @media (max-width: 960px) {
 	.rails-g-colors {
-		height: 323px;
+		height: 245px;
 		margin-top: 40px;
 	}
 }
@@ -289,7 +298,7 @@
 
 @media (max-width: 960px) {
 	.rails-g-assets {
-		height: 299px;
+		height: 215px;
 		margin-top: 40px;
 	}
 }
