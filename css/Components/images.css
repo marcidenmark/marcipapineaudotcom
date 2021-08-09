@@ -215,11 +215,45 @@
 	background-position: top left;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
+	.rails-g-typography {
+		height: 525px;
+	}
+}
+
+@media (max-width: 386px) {
 	.rails-g-typography {
 		height: 220px;
 	}
 }
+
+/* .aktivFoodie-new {
+	height: 425px;
+	background-size: cover;
+	background-position: top left;
+}
+@media (max-width: 794px) {
+	.aktivFoodie-new {
+		margin: 10px 0px 00px 0px;
+		height: 386px;
+	}
+}
+@media (max-width: 375px) {
+	.aktivFoodie-new {
+		margin: 10px 0px 00px 0px;
+		height: 161px;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
 
 .rails-g-colors {
 	height: 864px;
@@ -229,7 +263,7 @@
 
 @media (max-width: 960px) {
 	.rails-g-colors {
-		height: 239px;
+		height: 323px;
 		margin-top: 40px;
 	}
 }
@@ -255,7 +289,7 @@
 
 @media (max-width: 960px) {
 	.rails-g-assets {
-		height: 220px;
+		height: 299px;
 		margin-top: 40px;
 	}
 }
@@ -268,7 +302,7 @@
 
 @media (max-width: 960px) {
 	.rails-g-cards {
-		height: 285px;
+		height: 386px;
 		margin-top: 40px;
 	}
 }
