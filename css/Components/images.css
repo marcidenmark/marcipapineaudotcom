@@ -271,10 +271,18 @@
 
 @media (max-width: 960px) {
 	.rails-g-buttons {
+		height: 107px;
+		margin-top: 40px;
+	}
+}
+@media (max-width: 576px) {
+	.rails-g-buttons {
 		height: 53px;
 		margin-top: 40px;
 	}
 }
+
+
 
 .rails-g-assets {
 	height: 774px;
@@ -283,6 +291,12 @@
 }
 
 @media (max-width: 960px) {
+	.rails-g-assets {
+		height: 488px;
+		margin-top: 40px;
+	}
+}
+@media (max-width: 576px) {
 	.rails-g-assets {
 		height: 215px;
 		margin-top: 40px;
@@ -297,15 +311,32 @@
 
 @media (max-width: 960px) {
 	.rails-g-cards {
-		height: 386px;
+		height: 636px;
 		margin-top: 40px;
 	}
 }
+@media (max-width: 576px) {
+	.rails-g-cards {
+		height: 285px;
+		margin-top: 40px;
+	}
+}
+/* ----------------------------- */
+/* @media (max-width: 976px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 423px;
+	}
+}
+@media (max-width: 576px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 159px;
+	}
+} */
+/* ----------------------------- */
 
-/* ------------------------------- */
-/* ------------------------------- */
-/* ------------------------------- */
-/* ------------------------------- */
+
 
 
 .railsG-connections {
