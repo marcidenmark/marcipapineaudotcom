@@ -1,4 +1,19 @@
 /* Portfolio Boxes Home Page */
+/* ----------------------------- */
+/* @media (max-width: 976px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 423px;
+	}
+}
+@media (max-width: 576px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 159px;
+	}
+} */
+/* ----------------------------- */
+
 .portfolio-piece {
 	height: 400px;
 	background-size: cover;
@@ -11,7 +26,6 @@
 	}
 }
 
-
 .banner-case {
 	height: 520px;
 	background-size: cover;
@@ -22,9 +36,16 @@
 @media (max-width: 900px) {
 	.banner-case {
 		margin: 10px 0px 00px 0px;
-		height: 200px;
+		height: 464px;
 	}
 }
+@media (max-width: 576px) {
+	.banner-case {
+		margin: 10px 0px 00px 0px;
+		height: 190px;
+	}
+}
+
 
 /* ------------------------------- */
 /* ------------------------------- */
@@ -202,12 +223,6 @@
 	}
 }
 
-/* ------------------------------- */
-/* ------------------------------- */
-/* ------------------------------- */
-/* ------------------------------- */
-
-
 /* images UI kit railsGirls */
 .rails-g-typography {
 	height: 803px;
@@ -227,22 +242,6 @@
 		height: 239px !important;
 	}
 }
-/* ----------------------------- */
-/* @media (max-width: 976px) {
-	.banner-railsGirls {
-		margin: 10px 0px 00px 0px;
-		height: 423px;
-	}
-}
-@media (max-width: 576px) {
-	.banner-railsGirls {
-		margin: 10px 0px 00px 0px;
-		height: 159px;
-	}
-} */
-/* ----------------------------- */
-
-
 .rails-g-colors {
 	height: 864px;
 	background-size: cover;
@@ -298,13 +297,13 @@
 }
 @media (max-width: 576px) {
 	.rails-g-assets {
-		height: 215px;
+		height: 240px;
 		margin-top: 40px;
 	}
 }
 
 .rails-g-cards {
-	height: 374px;
+	height: 956px;
 	background-size: cover;
 	background-position: top left;
 }
@@ -321,23 +320,6 @@
 		margin-top: 40px;
 	}
 }
-/* ----------------------------- */
-/* @media (max-width: 976px) {
-	.banner-railsGirls {
-		margin: 10px 0px 00px 0px;
-		height: 423px;
-	}
-}
-@media (max-width: 576px) {
-	.banner-railsGirls {
-		margin: 10px 0px 00px 0px;
-		height: 159px;
-	}
-} */
-/* ----------------------------- */
-
-
-
 
 .railsG-connections {
 	height: 464px;
@@ -358,9 +340,34 @@
 }
 @media (max-width: 960px) {
 	.railsG-color {
-		height: 9vh;
+		height: 177px;
 	}
 }
+@media (max-width: 576px) {
+	.railsG-color {
+		height: 83px;
+	}
+}
+
+/* ----------------------------- */
+/* @media (max-width: 976px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 423px;
+	}
+}
+@media (max-width: 576px) {
+	.banner-railsGirls {
+		margin: 10px 0px 00px 0px;
+		height: 159px;
+	}
+} */
+/* ----------------------------- */
+
+
+
+
+
 
 /* aktivFoodie */
 .banner-aktivFoodie {
