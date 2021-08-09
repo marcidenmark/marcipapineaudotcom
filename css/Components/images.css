@@ -217,11 +217,11 @@
 
 @media (max-width: 768px) {
 	.rails-g-typography {
-		height: 525px;
+		height: 526px;
 	}
 }
 
-@media (max-width: 386px) {
+@media (max-width: 375px) {
 	.rails-g-typography {
 		height: 220px;
 	}
